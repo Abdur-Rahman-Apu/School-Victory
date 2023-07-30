@@ -1,0 +1,26 @@
+.navigation {
+  &__items {
+    &-logo {
+      font-family: $default-font;
+      font-weight: 700;
+      font-size: 1.6vw;
+    }
+
+    &-links {
+      font-family: $default-font;
+      font-weight: 700;
+      font-size: 1vw;
+    }
+  }
+
+  &__buttons {
+    a {
+      font-family: $default-font;
+      font-weight: 700;
+    }
+    a:first-child,
+    a:last-child {
+      font-size: 1vw;
+    }
+  }
+}

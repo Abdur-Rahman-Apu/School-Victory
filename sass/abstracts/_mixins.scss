@@ -1,3 +1,16 @@
+// flex
+
+@mixin flex {
+  display: flex;
+  @content;
+}
+
+@mixin color-btn {
+  background-color: $color-primary;
+  color: $color-white;
+  @content;
+}
+
 // Media query
 
 @mixin responsive($device) {

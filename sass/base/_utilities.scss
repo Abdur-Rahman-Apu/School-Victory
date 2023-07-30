@@ -1,0 +1,30 @@
+.u-flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+%link {
+  color: $color-white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.u-primary-btn {
+  background-color: $color-primary;
+  @extend %link;
+}
+
+.u-transparent-btn {
+  background-color: transparent;
+  border: 1px solid $color-white;
+  @extend %link;
+}
+
+.u-active {
+  color: $color-primary;
+}

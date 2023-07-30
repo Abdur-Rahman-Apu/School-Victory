@@ -1,0 +1,57 @@
+.navigation {
+  @include flex;
+
+  height: 15vh;
+
+  &__color-box {
+    background-color: rgba($color-primary, 0.2);
+    height: 100%;
+    width: 5vw;
+    border-bottom-right-radius: 10px;
+  }
+
+  &__items {
+    flex-grow: 1;
+    display: flex;
+    // align-items: center;
+    padding: 1rem 5% 0;
+
+    &-logo {
+      margin-right: 3rem;
+    }
+
+    &-links {
+      margin-top: 0.3rem;
+
+      a {
+        text-decoration: none;
+        color: $color-secondary;
+        display: inline-block;
+        margin-right: 1rem;
+        transition: all 0.5s;
+
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+
+  &__buttons {
+    flex-grow: 2;
+    background-color: rgba($color-primary, 0.2);
+    padding-top: 1rem;
+    padding: 1rem 5% 0;
+
+    a:first-child {
+      color: $color-primary;
+      text-decoration: none;
+      margin-right: 2rem;
+    }
+
+    a:last-child {
+      display: inline-block;
+      padding: 0.9rem 1.5rem;
+    }
+  }
+}
