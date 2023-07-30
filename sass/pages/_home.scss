@@ -1,4 +1,8 @@
 header {
   display: flex;
   height: calc(100vh - 15vh);
+
+  @include responsive(tab-port) {
+    flex-direction: column;
+  }
 }

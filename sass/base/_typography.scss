@@ -24,3 +24,27 @@
     }
   }
 }
+
+.header {
+  &__content {
+    &-text {
+      span {
+        @include text-style(700, 1vw);
+      }
+
+      h1 {
+        @include text-style(700, 4vw);
+      }
+
+      p {
+        @include text-style(400, 1.2vw);
+      }
+
+      &-btns {
+        a {
+          @include text-style(700, 1vw);
+        }
+      }
+    }
+  }
+}

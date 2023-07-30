@@ -21,6 +21,26 @@
 .navigation__buttons a:last-child {
   font-size: 1vw; }
 
+.header__content-text span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1vw; }
+
+.header__content-text h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 4vw; }
+
+.header__content-text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2vw; }
+
+.header__content-text-btns a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1vw; }
+
 .u-flex-center {
   display: flex;
   justify-content: center;
@@ -58,7 +78,7 @@
   display: flex;
   height: 15vh; }
   .navigation__color-box {
-    background-color: rgba(150, 187, 124, 0.2);
+    background-color: #eff8ed;
     height: 100%;
     width: 5vw;
     border-bottom-right-radius: 10px; }
@@ -79,8 +99,8 @@
         .navigation__items-links a:hover {
           color: #96bb7c; }
   .navigation__buttons {
-    flex-grow: 2;
-    background-color: rgba(150, 187, 124, 0.2);
+    flex-grow: 2.3;
+    background-color: #eff8ed;
     padding-top: 1rem;
     padding: 1rem 5% 0; }
     .navigation__buttons a:first-child {
@@ -91,6 +111,191 @@
       display: inline-block;
       padding: 0.9rem 1.5rem; }
 
+.header__content {
+  flex-basis: 60%; }
+  @media screen and (max-width: 56.25em) {
+    .header__content {
+      flex-basis: 100%;
+      margin-top: 5rem; } }
+  .header__content-text {
+    flex-grow: 1;
+    padding-left: 10%; }
+    .header__content-text span {
+      color: #96bb7c; }
+    .header__content-text h1 {
+      margin: 2rem 0;
+      color: #252b42;
+      line-height: 4rem; }
+    .header__content-text p {
+      margin-bottom: 3rem;
+      color: #737373;
+      line-height: 1.5rem; }
+    .header__content-text-btns a:first-child {
+      padding: 0.8rem 2.5rem;
+      margin-right: 0.5rem; }
+    .header__content-text-btns a:last-child {
+      padding: 0.8rem 2.5rem;
+      transition: all 0.7s; }
+      .header__content-text-btns a:last-child:hover {
+        background-color: #96bb7c;
+        color: #fff; }
+  .header__content-icon {
+    height: 8vh;
+    width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: -2.5rem; }
+    .header__content-icon img {
+      width: 40%; }
+    @media screen and (max-width: 56.25em) {
+      .header__content-icon {
+        width: 6vw;
+        height: 10vh; } }
+
+.header__image {
+  flex-basis: 41%;
+  position: relative; }
+  @media screen and (max-width: 56.25em) {
+    .header__image {
+      flex-basis: 100%;
+      margin-top: 5rem; } }
+  .header__image-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #eff8ed;
+    z-index: -1; }
+    .header__image-circle div {
+      width: 70%;
+      height: 75%;
+      background-color: #aaead0;
+      border-radius: 50%;
+      margin-top: -2rem;
+      margin-right: 0.8rem; }
+      @media screen and (max-width: 56.25em) {
+        .header__image-circle div {
+          width: 55vw;
+          height: 80%; } }
+  .header__image-img {
+    height: 100%;
+    z-index: 1000; }
+    @media screen and (max-width: 56.25em) {
+      .header__image-img {
+        display: flex;
+        justify-content: center;
+        align-items: center; } }
+    .header__image-img img {
+      height: 100%; }
+      @media screen and (max-width: 56.25em) {
+        .header__image-img img {
+          width: 55vw; } }
+  .header__image-chart {
+    position: absolute;
+    top: 3.4rem;
+    left: -1rem;
+    width: 11vw; }
+    @media screen and (max-width: 56.25em) {
+      .header__image-chart {
+        width: 20vw; } }
+    @media screen and (max-width: 37.5em) {
+      .header__image-chart {
+        width: 25vw;
+        top: 2rem; } }
+    @media screen and (max-width: 18.75em) {
+      .header__image-chart {
+        display: none; } }
+  .header__image-scores {
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+    width: 16.2vw;
+    height: 25vh; }
+    @media screen and (max-width: 56.25em) {
+      .header__image-scores {
+        width: 30vw;
+        height: 35vh;
+        left: 19%; } }
+    @media screen and (max-width: 37.5em) {
+      .header__image-scores {
+        width: 50vw;
+        left: 0;
+        bottom: 2rem; } }
+    @media screen and (max-width: 18.75em) {
+      .header__image-scores {
+        display: none; } }
+  .header__image-statistics {
+    position: absolute;
+    bottom: 4rem;
+    right: 20%;
+    width: 14vw;
+    height: 28vh; }
+    @media screen and (max-width: 56.25em) {
+      .header__image-statistics {
+        width: 20vw;
+        height: 30vh;
+        right: 29%;
+        bottom: 6rem; } }
+    @media screen and (max-width: 56.25em) {
+      .header__image-statistics {
+        height: 25vh;
+        width: 25vw;
+        bottom: 3rem;
+        right: 25%; } }
+    @media screen and (max-width: 18.75em) {
+      .header__image-statistics {
+        height: 10vh;
+        width: 20vw;
+        bottom: 2rem;
+        right: 30%; } }
+  .header__image-bag {
+    position: absolute;
+    top: 10%;
+    right: 15%;
+    width: 7vh;
+    height: 7vh; }
+    @media screen and (max-width: 56.25em) {
+      .header__image-bag {
+        right: 25%; } }
+    @media screen and (max-width: 37.5em) {
+      .header__image-bag {
+        right: 20%; } }
+    @media screen and (max-width: 18.75em) {
+      .header__image-bag {
+        width: 6vh;
+        height: 6vh;
+        right: 10%; } }
+  .header__image-gridIcon {
+    position: absolute;
+    bottom: 1rem;
+    left: 44%;
+    background-color: #0072f9;
+    border-radius: 8px;
+    height: 7vh;
+    width: 7vh; }
+    .header__image-gridIcon img {
+      width: 60%; }
+    @media screen and (max-width: 56.25em) {
+      .header__image-gridIcon {
+        left: 52%;
+        bottom: 1.5rem; } }
+    @media screen and (max-width: 37.5em) {
+      .header__image-gridIcon {
+        bottom: 0.5rem;
+        left: 50%; } }
+    @media screen and (max-width: 18.75em) {
+      .header__image-gridIcon {
+        height: 5vh;
+        width: 5vh;
+        bottom: 0.1rem;
+        left: 20%; } }
+
 header {
   display: flex;
   height: calc(100vh - 15vh); }
+  @media screen and (max-width: 56.25em) {
+    header {
+      flex-direction: column; } }

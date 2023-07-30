@@ -1,0 +1,255 @@
+.header {
+  &__content {
+    flex-basis: 60%;
+
+    @include responsive(tab-port) {
+      flex-basis: 100%;
+      margin-top: 5rem;
+    }
+
+    &-text {
+      flex-grow: 1;
+      padding-left: 10%;
+
+      span {
+        color: $color-primary;
+      }
+
+      h1 {
+        margin: 2rem 0;
+        color: $color-tertiary;
+        line-height: 4rem;
+      }
+
+      p {
+        margin-bottom: 3rem;
+        color: $color-secondary;
+        line-height: 1.5rem;
+      }
+
+      &-btns {
+        a:first-child {
+          padding: 0.8rem 2.5rem;
+          margin-right: 0.5rem;
+        }
+
+        a:last-child {
+          padding: 0.8rem 2.5rem;
+          transition: all 0.7s;
+
+          &:hover {
+            background-color: $color-primary;
+            color: $color-white;
+          }
+        }
+      }
+    }
+    &-icon {
+      height: 8vh;
+      width: 4vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      margin-top: -2.5rem;
+
+      img {
+        width: 40%;
+      }
+
+      @include responsive(tab-port) {
+        width: 6vw;
+        height: 10vh;
+      }
+    }
+  }
+
+  &__image {
+    flex-basis: 41%;
+    position: relative;
+
+    @include responsive(tab-port) {
+      flex-basis: 100%;
+
+      margin-top: 5rem;
+    }
+
+    &-circle {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90%;
+      background-color: $color-primary-light;
+      z-index: -1;
+
+      div {
+        width: 70%;
+        height: 75%;
+        background-color: $color-circle;
+        border-radius: 50%;
+        margin-top: -2rem;
+        margin-right: 0.8rem;
+
+        @include responsive(tab-port) {
+          width: 55vw;
+          height: 80%;
+        }
+      }
+    }
+
+    &-img {
+      height: 100%;
+      z-index: 1000;
+
+      @include responsive(tab-port) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      img {
+        height: 100%;
+
+        @include responsive(tab-port) {
+          width: 55vw;
+        }
+      }
+    }
+
+    &-chart {
+      @include set-position {
+        top: 3.4rem;
+        left: -1rem;
+      }
+      width: 11vw;
+
+      @include responsive(tab-port) {
+        width: 20vw;
+      }
+
+      @include responsive(mobile) {
+        width: 25vw;
+        top: 2rem;
+      }
+      @include responsive(mobile-small) {
+        display: none;
+      }
+    }
+
+    &-scores {
+      @include set-position {
+        bottom: 5rem;
+        left: 0;
+      }
+
+      width: 16.2vw;
+      height: 25vh;
+
+      @include responsive(tab-port) {
+        width: 30vw;
+        height: 35vh;
+        left: 19%;
+      }
+
+      @include responsive(mobile) {
+        width: 50vw;
+        left: 0;
+        bottom: 2rem;
+      }
+
+      @include responsive(mobile-small) {
+        display: none;
+      }
+    }
+
+    &-statistics {
+      @include set-position {
+        bottom: 4rem;
+        right: 20%;
+      }
+
+      width: 14vw;
+      height: 28vh;
+
+      @include responsive(tab-port) {
+        width: 20vw;
+        height: 30vh;
+        right: 29%;
+        bottom: 6rem;
+      }
+
+      @include responsive(tab-port) {
+        height: 25vh;
+        width: 25vw;
+        bottom: 3rem;
+        right: 25%;
+      }
+
+      @include responsive(mobile-small) {
+        height: 10vh;
+        width: 20vw;
+
+        bottom: 2rem;
+        right: 30%;
+      }
+    }
+
+    &-bag {
+      @include set-position {
+        top: 10%;
+        right: 15%;
+      }
+
+      width: 7vh;
+      height: 7vh;
+
+      @include responsive(tab-port) {
+        right: 25%;
+      }
+
+      @include responsive(mobile) {
+        right: 20%;
+      }
+
+      @include responsive(mobile-small) {
+        width: 6vh;
+        height: 6vh;
+        right: 10%;
+      }
+    }
+
+    &-gridIcon {
+      @include set-position {
+        bottom: 1rem;
+        left: 44%;
+      }
+
+      background-color: $color-sky-dark;
+      border-radius: 8px;
+      height: 7vh;
+      width: 7vh;
+
+      img {
+        width: 60%;
+      }
+
+      @include responsive(tab-port) {
+        left: 52%;
+        bottom: 1.5rem;
+      }
+
+      @include responsive(mobile) {
+        bottom: 0.5rem;
+        left: 50%;
+      }
+
+      @include responsive(mobile-small) {
+        height: 5vh;
+        width: 5vh;
+        bottom: 0.1rem;
+        left: 20%;
+      }
+    }
+  }
+}

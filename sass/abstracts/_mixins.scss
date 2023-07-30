@@ -11,6 +11,17 @@
   @content;
 }
 
+@mixin text-style($weight, $size) {
+  font-family: $default-font;
+  font-weight: $weight;
+  font-size: $size;
+}
+
+@mixin set-position {
+  position: absolute;
+  @content;
+}
+
 // Media query
 
 @mixin responsive($device) {

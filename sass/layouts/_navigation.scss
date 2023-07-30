@@ -1,10 +1,9 @@
 .navigation {
   @include flex;
-
   height: 15vh;
 
   &__color-box {
-    background-color: rgba($color-primary, 0.2);
+    background-color: $color-primary-light;
     height: 100%;
     width: 5vw;
     border-bottom-right-radius: 10px;
@@ -13,7 +12,6 @@
   &__items {
     flex-grow: 1;
     display: flex;
-    // align-items: center;
     padding: 1rem 5% 0;
 
     &-logo {
@@ -38,8 +36,8 @@
   }
 
   &__buttons {
-    flex-grow: 2;
-    background-color: rgba($color-primary, 0.2);
+    flex-grow: 2.3;
+    background-color: $color-primary-light;
     padding-top: 1rem;
     padding: 1rem 5% 0;
 
