@@ -2,7 +2,7 @@
   &__content {
     flex-basis: 60%;
 
-    @include responsive(tab-port) {
+    @include responsive(tab-land) {
       flex-basis: 100%;
       margin-top: 5rem;
     }
@@ -19,6 +19,11 @@
         margin: 2rem 0;
         color: $color-tertiary;
         line-height: 4rem;
+
+        @include responsive(mobile) {
+          margin: 1rem 0;
+          line-height: 3rem;
+        }
       }
 
       p {
@@ -31,6 +36,11 @@
         a:first-child {
           padding: 0.8rem 2.5rem;
           margin-right: 0.5rem;
+
+          @include responsive(mobile-small) {
+            margin-bottom: 1rem;
+            margin-right: 0;
+          }
         }
 
         a:last-child {
@@ -41,6 +51,12 @@
             background-color: $color-primary;
             color: $color-white;
           }
+        }
+
+        @include responsive(mobile-small) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
       }
     }
@@ -57,20 +73,18 @@
         width: 40%;
       }
 
-      @include responsive(tab-port) {
-        width: 6vw;
-        height: 10vh;
+      @include responsive(tab-land) {
+        display: none;
       }
     }
   }
 
   &__image {
-    flex-basis: 41%;
+    flex-basis: 40%;
     position: relative;
 
-    @include responsive(tab-port) {
+    @include responsive(tab-land) {
       flex-basis: 100%;
-
       margin-top: 5rem;
     }
 
@@ -153,12 +167,6 @@
       }
 
       @include responsive(mobile) {
-        width: 50vw;
-        left: 0;
-        bottom: 2rem;
-      }
-
-      @include responsive(mobile-small) {
         display: none;
       }
     }
@@ -184,6 +192,10 @@
         width: 25vw;
         bottom: 3rem;
         right: 25%;
+      }
+
+      @include responsive(mobile) {
+        display: none;
       }
 
       @include responsive(mobile-small) {

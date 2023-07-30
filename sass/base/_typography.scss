@@ -4,6 +4,19 @@
       font-family: $default-font;
       font-weight: 700;
       font-size: 1.6vw;
+
+      @include responsive(tab-land) {
+        font-size: 4vw;
+      }
+      @include responsive(mobile) {
+        font-size: 6vw;
+      }
+      @include responsive(mobile-medium) {
+        font-size: 7vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 8vw;
+      }
     }
 
     &-links {
@@ -21,6 +34,10 @@
     a:first-child,
     a:last-child {
       font-size: 1vw;
+
+      @include responsive(tab-port) {
+        font-size: 1.5vw;
+      }
     }
   }
 }
@@ -30,19 +47,60 @@
     &-text {
       span {
         @include text-style(700, 1vw);
+
+        @include responsive(tab-land) {
+          font-size: 1.5vw;
+        }
+
+        @include responsive(mobile) {
+          font-size: 2.5vw;
+        }
+        @include responsive(mobile-small) {
+          font-size: 4.5vw;
+        }
       }
 
       h1 {
         @include text-style(700, 4vw);
+
+        @include responsive(tab-port) {
+          font-size: 5vw;
+        }
+        @include responsive(mobile) {
+          font-size: 8vw;
+        }
+        @include responsive(mobile-small) {
+          font-size: 10vw;
+        }
       }
 
       p {
         @include text-style(400, 1.2vw);
+
+        @include responsive(tab-land) {
+          font-size: 1.8vw;
+        }
+        @include responsive(mobile) {
+          font-size: 2.8vw;
+        }
+        @include responsive(mobile-small) {
+          font-size: 3.8vw;
+        }
       }
 
       &-btns {
         a {
           @include text-style(700, 1vw);
+
+          @include responsive(tab-land) {
+            font-size: 1.5vw;
+          }
+          @include responsive(mobile) {
+            font-size: 3vw;
+          }
+          @include responsive(mobile-small) {
+            font-size: 3.5vw;
+          }
         }
       }
     }

@@ -46,6 +46,14 @@
     }
   }
 
+  //480px
+
+  @if $device == mobile-medium {
+    @media screen and (max-width: 30em) {
+      @content;
+    }
+  }
+
   //300px
 
   @if $device == mobile-small {
