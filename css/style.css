@@ -26,6 +26,12 @@
   justify-content: center;
   align-items: center; }
 
+.u-abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 .u-text-center {
   text-align: center; }
 
@@ -39,10 +45,14 @@
 
 .u-transparent-btn {
   background-color: transparent;
-  border: 1px solid #fff; }
+  border: 1px solid #96bb7c;
+  color: #96bb7c; }
 
 .u-active {
   color: #96bb7c; }
+
+.u-bg-sky-dark {
+  background-color: #0072f9; }
 
 .navigation {
   display: flex;
@@ -80,3 +90,7 @@
     .navigation__buttons a:last-child {
       display: inline-block;
       padding: 0.9rem 1.5rem; }
+
+header {
+  display: flex;
+  height: calc(100vh - 15vh); }
