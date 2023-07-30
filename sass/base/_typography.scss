@@ -32,11 +32,46 @@
       font-weight: 700;
     }
     a:first-child,
-    a:last-child {
+    a:last-of-type {
       font-size: 1vw;
 
       @include responsive(tab-port) {
         font-size: 1.5vw;
+      }
+    }
+  }
+
+  &__mobile {
+    font-family: $default-font;
+    font-weight: 700;
+    font-size: 3vw;
+
+    @include responsive(mobile) {
+      font-size: 5vw;
+    }
+    @include responsive(mobile-medium) {
+      font-size: 6vw;
+    }
+    @include responsive(mobile-small) {
+      font-size: 7vw;
+    }
+
+    &-menu {
+      &-items {
+        &-links {
+          a {
+            font-size: 2vw !important;
+            @include responsive(mobile) {
+              font-size: 3vw !important;
+            }
+            @include responsive(mobile-medium) {
+              font-size: 5vw !important;
+            }
+            @include responsive(mobile-small) {
+              font-size: 6vw !important;
+            }
+          }
+        }
       }
     }
   }
