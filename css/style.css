@@ -221,7 +221,7 @@
         align-items: center;
         padding: 0; } }
   .navigation__mobile {
-    transition: all 1s ease-in; }
+    transition: all 3s; }
     @media screen and (max-width: 75em) {
       .navigation__mobile {
         display: flex;
@@ -232,20 +232,22 @@
       top: 0;
       left: 0;
       background-color: #96bb7c;
-      height: 100vh;
+      height: 0;
       width: 0;
-      transition: width 4s ease-in-out;
-      z-index: 2000; }
+      z-index: 2000;
+      opacity: 0; }
       .navigation__mobile-menu-items {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        z-index: 3000; }
+        z-index: 3000;
+        transition: all 1s; }
         .navigation__mobile-menu-items-links {
           width: 100%;
           height: 100%;
-          text-align: center; }
+          text-align: center;
+          transition: all 1s; }
           .navigation__mobile-menu-items-links a {
             font-size: 3vw;
             color: #fff;
@@ -265,8 +267,9 @@
     position: relative;
     z-index: 5000; }
   .navigation__checkbox:checked ~ .navigation__mobile-menu {
-    display: block;
-    width: 100%;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
     transition: all 1s; }
 
 .header__content {
