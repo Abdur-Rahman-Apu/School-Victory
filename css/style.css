@@ -624,14 +624,10 @@
       width: 60%; }
     @media screen and (max-width: 75em) {
       .header__image-gridIcon {
-        width: 3vh;
-        height: 3vh;
         left: 35%;
         bottom: 2rem; } }
     @media screen and (max-width: 56.25em) {
       .header__image-gridIcon {
-        width: 4vh;
-        height: 4vh;
         left: 52%;
         bottom: 1rem; } }
     @media screen and (max-width: 30em) {

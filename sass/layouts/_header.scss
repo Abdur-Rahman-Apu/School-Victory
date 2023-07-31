@@ -270,15 +270,11 @@
       }
 
       @include responsive(tab-land) {
-        width: 3vh;
-        height: 3vh;
         left: 35%;
         bottom: 2rem;
       }
 
       @include responsive(tab-port) {
-        width: 4vh;
-        height: 4vh;
         left: 52%;
         bottom: 1rem;
       }
