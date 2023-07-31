@@ -138,6 +138,10 @@
       }
       width: 11vw;
 
+      @include responsive(tab-land) {
+        width: 20vw;
+      }
+
       @include responsive(tab-port) {
         width: 20vw;
       }
@@ -160,10 +164,17 @@
       width: 16.2vw;
       height: 25vh;
 
+      @include responsive(tab-land) {
+        width: 20vh;
+        height: 15vh;
+        bottom: 7rem;
+      }
+
       @include responsive(tab-port) {
         width: 30vw;
-        height: 35vh;
+        height: 20vh;
         left: 19%;
+        bottom: 4rem;
       }
 
       @include responsive(mobile) {
@@ -180,18 +191,18 @@
       width: 14vw;
       height: 28vh;
 
-      @include responsive(tab-port) {
-        width: 20vw;
-        height: 30vh;
-        right: 29%;
-        bottom: 6rem;
+      @include responsive(tab-land) {
+        width: 15vh;
+        height: 14vh;
+        right: 47%;
+        bottom: 9rem;
       }
 
       @include responsive(tab-port) {
-        height: 25vh;
-        width: 25vw;
-        bottom: 3rem;
-        right: 25%;
+        height: 15vh;
+        width: 20vw;
+        bottom: 5rem;
+        right: 30%;
       }
 
       @include responsive(mobile) {
@@ -216,18 +227,30 @@
       width: 7vh;
       height: 7vh;
 
+      @include responsive(tab-land) {
+        width: 5vh;
+        height: 5vh;
+      }
+
       @include responsive(tab-port) {
-        right: 25%;
+        width: 5vh;
+        height: 5vh;
+        right: 20%;
       }
 
       @include responsive(mobile) {
         right: 20%;
       }
 
-      @include responsive(mobile-small) {
+      @include responsive(mobile-medium) {
         width: 6vh;
         height: 6vh;
         right: 10%;
+      }
+
+      @include responsive(mobile-small) {
+        width: 5vh;
+        height: 5vh;
       }
     }
 
@@ -246,17 +269,21 @@
         width: 60%;
       }
 
+      @include responsive(tab-land) {
+        width: 3vh;
+        height: 3vh;
+        left: 35%;
+        bottom: 2rem;
+      }
+
       @include responsive(tab-port) {
+        width: 4vh;
+        height: 4vh;
         left: 52%;
-        bottom: 1.5rem;
+        bottom: 1rem;
       }
 
-      @include responsive(mobile) {
-        bottom: 0.5rem;
-        left: 50%;
-      }
-
-      @include responsive(mobile-small) {
+      @include responsive(mobile-medium) {
         height: 5vh;
         width: 5vh;
         bottom: 0.1rem;
