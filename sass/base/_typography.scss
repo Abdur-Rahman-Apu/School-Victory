@@ -141,3 +141,38 @@
     }
   }
 }
+
+.popular__courses {
+  // content
+  &-content {
+    span {
+      @include text-style(700, 1vw);
+    }
+
+    h2 {
+      @include text-style(700, 2.5vw);
+    }
+
+    p {
+      @include text-style(400, 1.2vw);
+    }
+  }
+
+  //   card
+  &-course {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 8rem;
+
+    &-card {
+      &-heading {
+        @include text-style(700, 1.2vw);
+      }
+
+      &-content {
+        @include text-style(400, 1vw);
+      }
+    }
+  }
+}

@@ -118,6 +118,35 @@
     .header__content-text-btns a {
       font-size: 3.5vw; } }
 
+.popular__courses-content span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1vw; }
+
+.popular__courses-content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.5vw; }
+
+.popular__courses-content p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2vw; }
+
+.popular__courses-course {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 8rem; }
+  .popular__courses-course-card-heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 1.2vw; }
+  .popular__courses-course-card-content {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1vw; }
+
 .u-flex-center {
   display: flex;
   justify-content: center;
@@ -464,9 +493,52 @@
         bottom: 0.1rem;
         left: 20%; } }
 
+.popular__courses-content {
+  margin-bottom: 2rem; }
+  .popular__courses-content span {
+    color: #96bb7c; }
+  .popular__courses-content h2 {
+    color: #252b42;
+    margin: 1rem 0; }
+  .popular__courses-content p {
+    color: #737373; }
+
+.popular__courses-course {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 8rem; }
+  .popular__courses-course-card {
+    width: 218px;
+    height: fit-content;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    padding: 2rem; }
+    .popular__courses-course-card-img {
+      position: relative; }
+      .popular__courses-course-card-img img:last-child {
+        width: 10vh;
+        height: 10vh;
+        position: absolute;
+        top: 0.5rem;
+        left: 0.3rem; }
+    .popular__courses-course-card-heading {
+      margin: 1.5rem 0; }
+    .popular__courses-course-card-hr {
+      margin-bottom: 1.5rem;
+      border: 0;
+      outline: 0;
+      height: 0.5vh;
+      width: 10vh;
+      background-color: #e74040; }
+    .popular__courses-course-card-content {
+      color: #737373; }
+
 header {
   display: flex;
   height: calc(100vh - 15vh); }
   @media screen and (max-width: 75em) {
     header {
       flex-direction: column; } }
+
+.popular__courses {
+  padding: 8rem 10%; }
