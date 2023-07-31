@@ -1,7 +1,7 @@
 .popular__courses {
   // content
   &-content {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 
     span {
       color: $color-primary;
@@ -19,9 +19,14 @@
 
   &-course {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    gap: 2rem;
     margin-top: 8rem;
+
+    @include responsive(mobile) {
+      justify-content: center;
+    }
 
     &-card {
       width: 218px;
@@ -38,6 +43,19 @@
           @include set-position {
             top: 0.5rem;
             left: 0.3rem;
+          }
+
+          //   media query
+
+          @include responsive(tab-port) {
+            width: 4vh;
+            height: 4vh;
+            left: 0.4rem;
+          }
+          @include responsive(mobile) {
+            width: 6vh;
+            height: 6vh;
+            left: 0.4rem;
           }
         }
       }

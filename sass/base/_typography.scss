@@ -147,14 +147,80 @@
   &-content {
     span {
       @include text-style(700, 1vw);
+
+      //   media query
+
+      @include responsive(tab-land) {
+        @include text-style(700, 1.7vw);
+      }
+
+      @include responsive(tab-port) {
+        @include text-style(700, 1.9vw);
+      }
+
+      @include responsive(mobile) {
+        @include text-style(700, 2.3vw);
+      }
+
+      @include responsive(mobile-medium) {
+        @include text-style(700, 3.3vw);
+      }
+
+      @include responsive(mobile-small) {
+        @include text-style(700, 3.5vw);
+      }
     }
 
     h2 {
       @include text-style(700, 2.5vw);
+
+      //   media query
+
+      @include responsive(tab-land) {
+        @include text-style(700, 3.5vw);
+      }
+
+      @include responsive(tab-port) {
+        @include text-style(700, 3.9vw);
+      }
+
+      @include responsive(mobile) {
+        @include text-style(700, 4.5vw);
+      }
+
+      @include responsive(mobile-medium) {
+        @include text-style(700, 6vw);
+      }
+
+      @include responsive(mobile-small) {
+        @include text-style(700, 7vw);
+      }
     }
 
     p {
       @include text-style(400, 1.2vw);
+
+      //   media query
+
+      @include responsive(tab-land) {
+        @include text-style(700, 1.4vw);
+      }
+
+      @include responsive(tab-port) {
+        @include text-style(700, 1.7vw);
+      }
+
+      @include responsive(mobile) {
+        @include text-style(700, 2.3vw);
+      }
+
+      @include responsive(mobile-medium) {
+        @include text-style(700, 2.8vw);
+      }
+
+      @include responsive(mobile-small) {
+        @include text-style(700, 3.1vw);
+      }
     }
   }
 
@@ -168,10 +234,53 @@
     &-card {
       &-heading {
         @include text-style(700, 1.2vw);
+
+        //   media query
+
+        @include responsive(tab-land) {
+          @include text-style(700, 1.7vw);
+        }
+
+        @include responsive(tab-port) {
+          @include text-style(700, 2vw);
+        }
+
+        @include responsive(mobile) {
+          @include text-style(700, 3vw);
+        }
+
+        @include responsive(mobile-medium) {
+          @include text-style(700, 4.5vw);
+        }
+        @include responsive(mobile-small) {
+          @include text-style(700, 6vw);
+        }
       }
 
       &-content {
         @include text-style(400, 1vw);
+
+        //   media query
+
+        @include responsive(tab-land) {
+          @include text-style(700, 1.3vw);
+        }
+
+        @include responsive(tab-port) {
+          @include text-style(700, 1.5vw);
+        }
+
+        @include responsive(mobile) {
+          @include text-style(700, 2.3vw);
+        }
+
+        @include responsive(mobile-medium) {
+          @include text-style(700, 3.3vw);
+        }
+
+        @include responsive(mobile-small) {
+          @include text-style(700, 4.3vw);
+        }
       }
     }
   }

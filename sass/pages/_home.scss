@@ -4,6 +4,7 @@ header {
 
   @include responsive(tab-land) {
     flex-direction: column;
+    height: fit-content;
   }
 }
 
