@@ -23,5 +23,10 @@ header {
 
   @include responsive(tab-land) {
     flex-direction: column;
+    padding: 5rem 10%;
   }
+}
+
+.package__section {
+  @extend .quality__education;
 }

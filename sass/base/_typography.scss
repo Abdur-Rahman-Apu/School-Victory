@@ -292,7 +292,16 @@
       @include text-style(700, 3.1vw);
 
       @include responsive(tab-land) {
-        font-size: 5vw;
+        font-size: 4.5vw;
+      }
+      @include responsive(tab-port) {
+        font-size: 4vw;
+      }
+      @include responsive(mobile) {
+        font-size: 6vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 8vw;
       }
     }
 
@@ -300,7 +309,16 @@
       @include text-style(400, 1.4vw);
 
       @include responsive(tab-land) {
+        font-size: 2.5vw;
+      }
+      @include responsive(tab-port) {
+        font-size: 2vw;
+      }
+      @include responsive(mobile) {
         font-size: 3vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 4vw;
       }
     }
 
@@ -308,8 +326,21 @@
       @include text-style(700, 1.2vw);
 
       @include responsive(tab-land) {
+        font-size: 2.5vw;
+      }
+      @include responsive(tab-port) {
+        font-size: 2vw;
+      }
+      @include responsive(mobile) {
         font-size: 3vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 4vw;
       }
     }
   }
+}
+
+.package__section {
+  @extend .quality__education-content;
 }

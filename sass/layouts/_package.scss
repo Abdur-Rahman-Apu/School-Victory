@@ -1,0 +1,52 @@
+.package__section {
+  &-content {
+    padding-right: 2.5rem;
+
+    @include responsive(tab-land) {
+      padding-right: 0;
+    }
+  }
+
+  &-img {
+    position: relative;
+
+    @include responsive(tab-land) {
+      margin-top: 8rem;
+    }
+
+    @include responsive(mobile) {
+      width: 80%;
+    }
+
+    &-video {
+      width: 100%;
+      display: inline-block;
+      border-radius: 8px;
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0) 14.58%,
+        rgba(56, 56, 56, 0.84) 100%
+      );
+    }
+
+    &-play {
+      background-color: $color-play;
+      border-radius: 50%;
+      width: 5vw;
+      height: 5vw;
+      @include set-position {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 30%;
+      }
+    }
+  }
+}

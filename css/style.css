@@ -272,29 +272,56 @@
         font-weight: 700;
         font-size: 4.3vw; } }
 
-.quality__education-content h2 {
+.quality__education-content h2, .package__section h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 3.1vw; }
   @media screen and (max-width: 75em) {
-    .quality__education-content h2 {
-      font-size: 5vw; } }
+    .quality__education-content h2, .package__section h2 {
+      font-size: 4.5vw; } }
+  @media screen and (max-width: 56.25em) {
+    .quality__education-content h2, .package__section h2 {
+      font-size: 4vw; } }
+  @media screen and (max-width: 37.5em) {
+    .quality__education-content h2, .package__section h2 {
+      font-size: 6vw; } }
+  @media screen and (max-width: 18.75em) {
+    .quality__education-content h2, .package__section h2 {
+      font-size: 8vw; } }
 
-.quality__education-content p {
+.quality__education-content p, .package__section p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1.4vw; }
   @media screen and (max-width: 75em) {
-    .quality__education-content p {
+    .quality__education-content p, .package__section p {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 56.25em) {
+    .quality__education-content p, .package__section p {
+      font-size: 2vw; } }
+  @media screen and (max-width: 37.5em) {
+    .quality__education-content p, .package__section p {
       font-size: 3vw; } }
+  @media screen and (max-width: 18.75em) {
+    .quality__education-content p, .package__section p {
+      font-size: 4vw; } }
 
-.quality__education-content a {
+.quality__education-content a, .package__section a {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1.2vw; }
   @media screen and (max-width: 75em) {
-    .quality__education-content a {
+    .quality__education-content a, .package__section a {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 56.25em) {
+    .quality__education-content a, .package__section a {
+      font-size: 2vw; } }
+  @media screen and (max-width: 37.5em) {
+    .quality__education-content a, .package__section a {
       font-size: 3vw; } }
+  @media screen and (max-width: 18.75em) {
+    .quality__education-content a, .package__section a {
+      font-size: 4vw; } }
 
 .u-flex-center {
   display: flex;
@@ -797,34 +824,68 @@
     .quality__education-img-dots img {
       width: 50%; }
 
-.quality__education-content {
+.quality__education-content, .package__section {
   flex-basis: 45%; }
   @media screen and (max-width: 75em) {
-    .quality__education-content {
+    .quality__education-content, .package__section {
       flex-basis: 100%;
       margin-top: 5rem; } }
-  .quality__education-content hr {
+  .quality__education-content hr, .package__section hr {
     border: 0;
     outline: 0;
     width: 15vh;
     height: 1vh;
     background-color: #e74040; }
     @media screen and (max-width: 75em) {
-      .quality__education-content hr {
+      .quality__education-content hr, .package__section hr {
         height: 1.5vw;
         width: 15vw; } }
-  .quality__education-content h2 {
+  .quality__education-content h2, .package__section h2 {
     margin: 2.5rem 0 3rem; }
-  .quality__education-content p {
+  .quality__education-content p, .package__section p {
     margin-bottom: 3.5rem;
     color: #737373; }
-  .quality__education-content a {
+  .quality__education-content a, .package__section a {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: #96bb7c; }
-    .quality__education-content a i {
+    .quality__education-content a i, .package__section a i {
       margin-left: 0.5rem; }
+
+.package__section-content {
+  padding-right: 2.5rem; }
+  @media screen and (max-width: 75em) {
+    .package__section-content {
+      padding-right: 0; } }
+
+.package__section-img {
+  position: relative; }
+  @media screen and (max-width: 75em) {
+    .package__section-img {
+      margin-top: 8rem; } }
+  @media screen and (max-width: 37.5em) {
+    .package__section-img {
+      width: 80%; } }
+  .package__section-img-video {
+    width: 100%;
+    display: inline-block;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%); }
+  .package__section-img-play {
+    background-color: #96bb7c;
+    border-radius: 50%;
+    width: 5vw;
+    height: 5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .package__section-img-play img {
+      width: 30%; }
 
 header {
   display: flex;
@@ -837,12 +898,13 @@ header {
 .popular__courses {
   padding: 8rem 10%; }
 
-.quality__education {
+.quality__education, .package__section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 8rem 10%;
   overflow: hidden; }
   @media screen and (max-width: 75em) {
-    .quality__education {
-      flex-direction: column; } }
+    .quality__education, .package__section {
+      flex-direction: column;
+      padding: 5rem 10%; } }
