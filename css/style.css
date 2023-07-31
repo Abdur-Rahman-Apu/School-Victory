@@ -208,69 +208,100 @@
       font-weight: 700;
       font-size: 3.1vw; } }
 
-.popular__courses-course {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  margin-top: 8rem; }
-  .popular__courses-course-card-heading {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    font-size: 1.2vw; }
-    @media screen and (max-width: 75em) {
-      .popular__courses-course-card-heading {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 1.7vw; } }
-    @media screen and (max-width: 56.25em) {
-      .popular__courses-course-card-heading {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 2vw; } }
-    @media screen and (max-width: 37.5em) {
-      .popular__courses-course-card-heading {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 3vw; } }
-    @media screen and (max-width: 30em) {
-      .popular__courses-course-card-heading {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 4.5vw; } }
-    @media screen and (max-width: 18.75em) {
-      .popular__courses-course-card-heading {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 6vw; } }
-  .popular__courses-course-card-content {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 1vw; }
-    @media screen and (max-width: 75em) {
-      .popular__courses-course-card-content {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 1.3vw; } }
-    @media screen and (max-width: 56.25em) {
-      .popular__courses-course-card-content {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 1.5vw; } }
-    @media screen and (max-width: 37.5em) {
-      .popular__courses-course-card-content {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 2.3vw; } }
-    @media screen and (max-width: 30em) {
-      .popular__courses-course-card-content {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 3.3vw; } }
-    @media screen and (max-width: 18.75em) {
-      .popular__courses-course-card-content {
-        font-family: "Montserrat", sans-serif;
-        font-weight: 700;
-        font-size: 4.3vw; } }
+.popular__courses-course-card-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw; }
+  @media screen and (max-width: 75em) {
+    .popular__courses-course-card-heading {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 1.7vw; } }
+  @media screen and (max-width: 56.25em) {
+    .popular__courses-course-card-heading {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 2vw; } }
+  @media screen and (max-width: 37.5em) {
+    .popular__courses-course-card-heading {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 3vw; } }
+  @media screen and (max-width: 30em) {
+    .popular__courses-course-card-heading {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 4.5vw; } }
+  @media screen and (max-width: 18.75em) {
+    .popular__courses-course-card-heading {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 6vw; } }
+
+.popular__courses-course-card-content {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1vw; }
+  @media screen and (max-width: 75em) {
+    .popular__courses-course-card-content {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 1.3vw; } }
+  @media screen and (max-width: 56.25em) {
+    .popular__courses-course-card-content {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 1.5vw; } }
+  @media screen and (max-width: 37.5em) {
+    .popular__courses-course-card-content {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 2.3vw; } }
+  @media screen and (max-width: 30em) {
+    .popular__courses-course-card-content {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 3.3vw; } }
+  @media screen and (max-width: 18.75em) {
+    .popular__courses-course-card-content {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 4.3vw; } }
+
+.popular__courses-course-card-one-content-rating span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.13vw; }
+
+.popular__courses-course-card-one-content-rating-div p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1vw; }
+
+.popular__courses-course-card-one-content h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.3vw; }
+
+.popular__courses-course-card-one-content > p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1vw; }
+
+.popular__courses-course-card-one-content-sale p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw; }
+
+.popular__courses-course-card-one-content-price p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw; }
+
+.popular__courses-course-card-one-content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw; }
 
 .quality__education-content h2, .package__section h2 {
   font-family: "Montserrat", sans-serif;
@@ -705,7 +736,8 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 8rem; }
+  margin-top: 8rem;
+  gap: 2rem; }
   @media screen and (max-width: 37.5em) {
     .popular__courses-course {
       justify-content: center; } }
@@ -750,6 +782,77 @@
           width: 40%; } }
     .popular__courses-course-card-content {
       color: #737373; }
+  .popular__courses-course-card-one {
+    width: 218px;
+    height: fit-content; }
+    .popular__courses-course-card-one-img {
+      width: 100%;
+      position: relative; }
+      .popular__courses-course-card-one-img img {
+        width: 100%; }
+      .popular__courses-course-card-one-img-icons {
+        position: absolute;
+        bottom: 10%;
+        left: 20%;
+        display: flex; }
+        .popular__courses-course-card-one-img-icons div {
+          width: 3vw;
+          height: 3vw;
+          background-color: #fff;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .popular__courses-course-card-one-img-icons div:not(:last-child) {
+            margin-right: 0.5rem; }
+          .popular__courses-course-card-one-img-icons div img {
+            width: 60%; }
+    .popular__courses-course-card-one-content {
+      padding: 1rem; }
+      .popular__courses-course-card-one-content-rating {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+        .popular__courses-course-card-one-content-rating span {
+          color: #96bb7c; }
+        .popular__courses-course-card-one-content-rating-div {
+          display: flex;
+          align-items: center;
+          background-color: #2d4059;
+          padding: 0.4rem;
+          border-radius: 2.1875rem; }
+          .popular__courses-course-card-one-content-rating-div p {
+            color: #fff;
+            margin-left: 0.3rem; }
+      .popular__courses-course-card-one-content h5 {
+        color: #252b42;
+        margin: 0.7rem 0; }
+      .popular__courses-course-card-one-content > p {
+        color: #737373;
+        margin-bottom: 0.7rem; }
+      .popular__courses-course-card-one-content-sale {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem; }
+        .popular__courses-course-card-one-content-sale p {
+          color: #737373;
+          margin-left: 0.5rem; }
+      .popular__courses-course-card-one-content-price {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem; }
+        .popular__courses-course-card-one-content-price P:first-child {
+          color: #737373;
+          margin-right: 0.5rem; }
+        .popular__courses-course-card-one-content-price p:last-child {
+          color: #ffab71; }
+      .popular__courses-course-card-one-content a {
+        padding: 0.7rem 1rem;
+        border-radius: 30px;
+        display: inline-flex;
+        align-items: center; }
+        .popular__courses-course-card-one-content a i {
+          margin-left: 0.7rem; }
 
 .quality__education-img {
   flex-basis: 50%;

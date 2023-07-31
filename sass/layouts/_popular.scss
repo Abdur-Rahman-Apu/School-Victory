@@ -23,6 +23,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 8rem;
+    gap: 2rem;
 
     @include responsive(mobile) {
       justify-content: center;
@@ -84,6 +85,124 @@
 
       &-content {
         color: $color-secondary;
+      }
+    }
+
+    &-card-one {
+      width: 218px;
+      height: fit-content;
+
+      &-img {
+        width: 100%;
+        position: relative;
+
+        img {
+          width: 100%;
+        }
+
+        &-icons {
+          @include set-position {
+            bottom: 10%;
+            left: 20%;
+          }
+
+          display: flex;
+
+          div {
+            width: 3vw;
+            height: 3vw;
+            background-color: $color-white;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:not(:last-child) {
+              margin-right: 0.5rem;
+            }
+            img {
+              width: 60%;
+            }
+          }
+        }
+      }
+
+      &-content {
+        padding: 1rem;
+
+        &-rating {
+          @include flex {
+            justify-content: space-between;
+            align-items: center;
+          }
+
+          span {
+            color: $color-primary;
+          }
+
+          &-div {
+            display: flex;
+            align-items: center;
+            background-color: $color-rating;
+            padding: 0.4rem;
+            border-radius: 2.1875rem;
+
+            p {
+              color: $color-white;
+              margin-left: 0.3rem;
+            }
+          }
+        }
+
+        h5 {
+          color: $color-tertiary;
+          margin: 0.7rem 0;
+        }
+
+        & > p {
+          color: $color-secondary;
+          margin-bottom: 0.7rem;
+        }
+
+        &-sale {
+          @include flex {
+            align-items: center;
+          }
+          margin-bottom: 1rem;
+
+          p {
+            color: $color-secondary;
+            margin-left: 0.5rem;
+          }
+        }
+
+        &-price {
+          @include flex {
+            align-items: center;
+          }
+
+          margin-bottom: 1rem;
+
+          P:first-child {
+            color: $color-secondary;
+            margin-right: 0.5rem;
+          }
+
+          p:last-child {
+            color: $color-price;
+          }
+        }
+
+        a {
+          padding: 0.7rem 1rem;
+          border-radius: 30px;
+          display: inline-flex;
+          align-items: center;
+
+          i {
+            margin-left: 0.7rem;
+          }
+        }
       }
     }
   }

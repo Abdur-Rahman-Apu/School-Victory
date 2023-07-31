@@ -226,11 +226,6 @@
 
   //   card
   &-course {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-top: 8rem;
-
     &-card {
       &-heading {
         @include text-style(700, 1.2vw);
@@ -280,6 +275,46 @@
 
         @include responsive(mobile-small) {
           @include text-style(700, 4.3vw);
+        }
+      }
+
+      &-one {
+        &-content {
+          &-rating {
+            span {
+              @include text-style(700, 1.13vw);
+            }
+
+            &-div {
+              p {
+                @include text-style(400, 1vw);
+              }
+            }
+          }
+
+          h5 {
+            @include text-style(700, 1.3vw);
+          }
+
+          & > p {
+            @include text-style(700, 1vw);
+          }
+
+          &-sale {
+            p {
+              @include text-style(700, 1.1vw);
+            }
+          }
+
+          &-price {
+            p {
+              @include text-style(700, 1.1vw);
+            }
+          }
+
+          a {
+            @include text-style(700, 1.2vw);
+          }
         }
       }
     }
