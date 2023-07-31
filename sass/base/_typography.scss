@@ -290,14 +290,26 @@
   &-content {
     h2 {
       @include text-style(700, 3.1vw);
+
+      @include responsive(tab-land) {
+        font-size: 5vw;
+      }
     }
 
     p {
       @include text-style(400, 1.4vw);
+
+      @include responsive(tab-land) {
+        font-size: 3vw;
+      }
     }
 
     a {
       @include text-style(700, 1.2vw);
+
+      @include responsive(tab-land) {
+        font-size: 3vw;
+      }
     }
   }
 }

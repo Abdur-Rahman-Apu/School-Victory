@@ -3,6 +3,14 @@
     flex-basis: 50%;
     position: relative;
     overflow: hidden;
+    // media query
+
+    @include responsive(tab-land) {
+      flex-basis: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
 
     &-circle {
       @include set-position {
@@ -15,10 +23,20 @@
       background-color: $color-circle2;
       border-radius: 50%;
       z-index: -1;
+
+      @include responsive(tab-land) {
+        width: 55vw;
+        height: 55vw;
+      }
     }
 
     &-girl {
       width: 60vh;
+
+      @include responsive(tab-land) {
+        width: 60vw;
+        margin-left: -5rem;
+      }
     }
 
     &-wave {
@@ -36,6 +54,12 @@
 
       width: 25vh;
       height: 25vh;
+
+      @include responsive(tab-land) {
+        width: 20vw;
+        height: 20vw;
+        left: -2rem;
+      }
     }
 
     &-statistics {
@@ -46,6 +70,11 @@
 
       width: 35vh;
       height: 33vh;
+
+      @include responsive(tab-land) {
+        width: 20vw;
+        height: 20vw;
+      }
     }
 
     &-dots {
@@ -62,6 +91,11 @@
       border-radius: 8px;
       transform: rotate(-60deg);
 
+      @include responsive(tab-land) {
+        width: 7vw;
+        height: 7vw;
+      }
+
       img {
         width: 50%;
       }
@@ -71,12 +105,22 @@
   &-content {
     flex-basis: 45%;
 
+    @include responsive(tab-land) {
+      flex-basis: 100%;
+      margin-top: 5rem;
+    }
+
     hr {
       border: 0;
       outline: 0;
       width: 15vh;
       height: 1vh;
       background-color: $color-danger;
+
+      @include responsive(tab-land) {
+        height: 1.5vw;
+        width: 15vw;
+      }
     }
 
     h2 {

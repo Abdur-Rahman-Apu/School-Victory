@@ -47,6 +47,11 @@
 
           //   media query
 
+          @include responsive(tab-land) {
+            width: 6vw;
+            height: 6vw;
+          }
+
           @include responsive(tab-port) {
             width: 4vh;
             height: 4vh;
@@ -71,6 +76,10 @@
         height: 0.5vh;
         width: 10vh;
         background-color: $color-danger;
+
+        @include responsive(tab-land) {
+          width: 40%;
+        }
       }
 
       &-content {

@@ -276,16 +276,25 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 3.1vw; }
+  @media screen and (max-width: 75em) {
+    .quality__education-content h2 {
+      font-size: 5vw; } }
 
 .quality__education-content p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1.4vw; }
+  @media screen and (max-width: 75em) {
+    .quality__education-content p {
+      font-size: 3vw; } }
 
 .quality__education-content a {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1.2vw; }
+  @media screen and (max-width: 75em) {
+    .quality__education-content a {
+      font-size: 3vw; } }
 
 .u-flex-center {
   display: flex;
@@ -561,8 +570,8 @@
     height: 25vh; }
     @media screen and (max-width: 75em) {
       .header__image-scores {
-        width: 20vh;
-        height: 15vh;
+        width: 20vw;
+        height: 15vw;
         bottom: 7rem; } }
     @media screen and (max-width: 56.25em) {
       .header__image-scores {
@@ -581,8 +590,8 @@
     height: 28vh; }
     @media screen and (max-width: 75em) {
       .header__image-statistics {
-        width: 15vh;
-        height: 14vh;
+        width: 15vw;
+        height: 14vw;
         right: 47%;
         bottom: 9rem; } }
     @media screen and (max-width: 56.25em) {
@@ -608,8 +617,8 @@
     height: 7vh; }
     @media screen and (max-width: 75em) {
       .header__image-bag {
-        width: 5vh;
-        height: 5vh; } }
+        width: 5vw;
+        height: 5vw; } }
     @media screen and (max-width: 56.25em) {
       .header__image-bag {
         width: 5vh;
@@ -640,7 +649,9 @@
     @media screen and (max-width: 75em) {
       .header__image-gridIcon {
         left: 35%;
-        bottom: 2rem; } }
+        bottom: 2rem;
+        width: 5vw;
+        height: 5vw; } }
     @media screen and (max-width: 56.25em) {
       .header__image-gridIcon {
         left: 52%;
@@ -684,6 +695,10 @@
         position: absolute;
         top: 0.5rem;
         left: 0.3rem; }
+        @media screen and (max-width: 75em) {
+          .popular__courses-course-card-img img:last-child {
+            width: 6vw;
+            height: 6vw; } }
         @media screen and (max-width: 56.25em) {
           .popular__courses-course-card-img img:last-child {
             width: 4vh;
@@ -703,6 +718,9 @@
       height: 0.5vh;
       width: 10vh;
       background-color: #e74040; }
+      @media screen and (max-width: 75em) {
+        .popular__courses-course-card-hr {
+          width: 40%; } }
     .popular__courses-course-card-content {
       color: #737373; }
 
@@ -710,6 +728,12 @@
   flex-basis: 50%;
   position: relative;
   overflow: hidden; }
+  @media screen and (max-width: 75em) {
+    .quality__education-img {
+      flex-basis: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: center; } }
   .quality__education-img-circle {
     position: absolute;
     top: 60%;
@@ -720,8 +744,16 @@
     background-color: #ddf4ff;
     border-radius: 50%;
     z-index: -1; }
+    @media screen and (max-width: 75em) {
+      .quality__education-img-circle {
+        width: 55vw;
+        height: 55vw; } }
   .quality__education-img-girl {
     width: 60vh; }
+    @media screen and (max-width: 75em) {
+      .quality__education-img-girl {
+        width: 60vw;
+        margin-left: -5rem; } }
   .quality__education-img-wave {
     position: absolute;
     bottom: 35%;
@@ -732,12 +764,21 @@
     left: -1.2rem;
     width: 25vh;
     height: 25vh; }
+    @media screen and (max-width: 75em) {
+      .quality__education-img-chart {
+        width: 20vw;
+        height: 20vw;
+        left: -2rem; } }
   .quality__education-img-statistics {
     position: absolute;
     bottom: -4rem;
     right: 7rem;
     width: 35vh;
     height: 33vh; }
+    @media screen and (max-width: 75em) {
+      .quality__education-img-statistics {
+        width: 20vw;
+        height: 20vw; } }
   .quality__education-img-dots {
     position: absolute;
     bottom: 4rem;
@@ -749,17 +790,29 @@
     height: 7vh;
     border-radius: 8px;
     transform: rotate(-60deg); }
+    @media screen and (max-width: 75em) {
+      .quality__education-img-dots {
+        width: 7vw;
+        height: 7vw; } }
     .quality__education-img-dots img {
       width: 50%; }
 
 .quality__education-content {
   flex-basis: 45%; }
+  @media screen and (max-width: 75em) {
+    .quality__education-content {
+      flex-basis: 100%;
+      margin-top: 5rem; } }
   .quality__education-content hr {
     border: 0;
     outline: 0;
     width: 15vh;
     height: 1vh;
     background-color: #e74040; }
+    @media screen and (max-width: 75em) {
+      .quality__education-content hr {
+        height: 1.5vw;
+        width: 15vw; } }
   .quality__education-content h2 {
     margin: 2.5rem 0 3rem; }
   .quality__education-content p {
@@ -790,3 +843,6 @@ header {
   align-items: center;
   padding: 8rem 10%;
   overflow: hidden; }
+  @media screen and (max-width: 75em) {
+    .quality__education {
+      flex-direction: column; } }

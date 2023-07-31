@@ -18,4 +18,10 @@ header {
   align-items: center;
   padding: 8rem 10%;
   overflow: hidden;
+
+  // media query
+
+  @include responsive(tab-land) {
+    flex-direction: column;
+  }
 }

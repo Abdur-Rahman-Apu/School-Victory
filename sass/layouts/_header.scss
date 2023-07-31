@@ -165,8 +165,8 @@
       height: 25vh;
 
       @include responsive(tab-land) {
-        width: 20vh;
-        height: 15vh;
+        width: 20vw;
+        height: 15vw;
         bottom: 7rem;
       }
 
@@ -192,8 +192,8 @@
       height: 28vh;
 
       @include responsive(tab-land) {
-        width: 15vh;
-        height: 14vh;
+        width: 15vw;
+        height: 14vw;
         right: 47%;
         bottom: 9rem;
       }
@@ -228,8 +228,8 @@
       height: 7vh;
 
       @include responsive(tab-land) {
-        width: 5vh;
-        height: 5vh;
+        width: 5vw;
+        height: 5vw;
       }
 
       @include responsive(tab-port) {
@@ -272,6 +272,8 @@
       @include responsive(tab-land) {
         left: 35%;
         bottom: 2rem;
+        width: 5vw;
+        height: 5vw;
       }
 
       @include responsive(tab-port) {
