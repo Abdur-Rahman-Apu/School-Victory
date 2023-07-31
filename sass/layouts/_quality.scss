@@ -47,9 +47,58 @@
       width: 35vh;
       height: 33vh;
     }
+
+    &-dots {
+      @include set-position {
+        bottom: 4rem;
+        left: 1rem;
+      }
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 7vh;
+      height: 7vh;
+      border-radius: 8px;
+      transform: rotate(-60deg);
+
+      img {
+        width: 50%;
+      }
+    }
   }
 
   &-content {
     flex-basis: 45%;
+
+    hr {
+      border: 0;
+      outline: 0;
+      width: 15vh;
+      height: 1vh;
+      background-color: $color-danger;
+    }
+
+    h2 {
+      margin: 2.5rem 0 3rem;
+    }
+
+    p {
+      margin-bottom: 3.5rem;
+      color: $color-secondary;
+    }
+
+    a {
+      @include flex {
+        align-items: center;
+      }
+
+      text-decoration: none;
+      color: $color-primary;
+
+      i {
+        margin-left: 0.5rem;
+      }
+    }
   }
 }

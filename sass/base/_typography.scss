@@ -285,3 +285,19 @@
     }
   }
 }
+
+.quality__education {
+  &-content {
+    h2 {
+      @include text-style(700, 3.1vw);
+    }
+
+    p {
+      @include text-style(400, 1.4vw);
+    }
+
+    a {
+      @include text-style(700, 1.2vw);
+    }
+  }
+}

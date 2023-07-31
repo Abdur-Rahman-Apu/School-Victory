@@ -272,6 +272,21 @@
         font-weight: 700;
         font-size: 4.3vw; } }
 
+.quality__education-content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3.1vw; }
+
+.quality__education-content p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.4vw; }
+
+.quality__education-content a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw; }
+
 .u-flex-center {
   display: flex;
   justify-content: center;
@@ -723,9 +738,40 @@
     right: 7rem;
     width: 35vh;
     height: 33vh; }
+  .quality__education-img-dots {
+    position: absolute;
+    bottom: 4rem;
+    left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7vh;
+    height: 7vh;
+    border-radius: 8px;
+    transform: rotate(-60deg); }
+    .quality__education-img-dots img {
+      width: 50%; }
 
 .quality__education-content {
   flex-basis: 45%; }
+  .quality__education-content hr {
+    border: 0;
+    outline: 0;
+    width: 15vh;
+    height: 1vh;
+    background-color: #e74040; }
+  .quality__education-content h2 {
+    margin: 2.5rem 0 3rem; }
+  .quality__education-content p {
+    margin-bottom: 3.5rem;
+    color: #737373; }
+  .quality__education-content a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #96bb7c; }
+    .quality__education-content a i {
+      margin-left: 0.5rem; }
 
 header {
   display: flex;
@@ -741,5 +787,6 @@ header {
 .quality__education {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 8rem 10%;
   overflow: hidden; }
