@@ -663,3 +663,57 @@
     }
   }
 }
+
+.testimonial__section {
+  &-card {
+    p {
+      @include text-style(400, 1.3vw);
+
+      // media query
+      @include responsive(tab-land) {
+        font-size: 1.5vw;
+      }
+      @include responsive(tab-port) {
+        font-size: 1.7vw;
+      }
+      @include responsive(mobile) {
+        font-size: 2.1vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 2.5vw;
+      }
+    }
+
+    h5 {
+      @include text-style(700, 1.3vw);
+
+      // media query
+      @include responsive(tab-port) {
+        font-size: 1.7vw;
+      }
+
+      @include responsive(mobile) {
+        font-size: 2vw;
+      }
+
+      @include responsive(mobile-small) {
+        font-size: 2.5vw;
+      }
+    }
+
+    h6 {
+      @include text-style(700, 1vw);
+
+      // media query
+      @include responsive(tab-port) {
+        font-size: 1.3vw;
+      }
+      @include responsive(mobile) {
+        font-size: 1.9vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 2.4vw;
+      }
+    }
+  }
+}
