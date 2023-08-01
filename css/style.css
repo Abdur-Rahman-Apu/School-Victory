@@ -453,6 +453,118 @@
     .quality__education-content a, .package__section a {
       font-size: 4vw; } }
 
+.pricing__section-card-container-type {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5vw; }
+  @media screen and (max-width: 56.25em) {
+    .pricing__section-card-container-type {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 37.5em) {
+    .pricing__section-card-container-type {
+      font-size: 5vw; } }
+
+.pricing__section-card-container p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1vw; }
+  @media screen and (max-width: 56.25em) {
+    .pricing__section-card-container p {
+      font-size: 1.5vw; } }
+  @media screen and (max-width: 37.5em) {
+    .pricing__section-card-container p {
+      font-size: 1.8vw; } }
+  @media screen and (max-width: 30em) {
+    .pricing__section-card-container p {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 18.75em) {
+    .pricing__section-card-container p {
+      font-size: 2.8vw; } }
+
+.pricing__section-card-container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.7vw; }
+  @media screen and (max-width: 56.25em) {
+    .pricing__section-card-container h2 {
+      font-size: 4vw; } }
+  @media screen and (max-width: 37.5em) {
+    .pricing__section-card-container h2 {
+      font-size: 6vw; } }
+  @media screen and (max-width: 30em) {
+    .pricing__section-card-container h2 {
+      font-size: 8vw; } }
+  @media screen and (max-width: 18.75em) {
+    .pricing__section-card-container h2 {
+      font-size: 10vw; } }
+
+.pricing__section-card-container h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 0.9vw; }
+  @media screen and (max-width: 56.25em) {
+    .pricing__section-card-container h6 {
+      font-size: 1.5vw; } }
+  @media screen and (max-width: 37.5em) {
+    .pricing__section-card-container h6 {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 18.75em) {
+    .pricing__section-card-container h6 {
+      font-size: 3vw; } }
+
+.pricing__section-card-container a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw; }
+  @media screen and (max-width: 56.25em) {
+    .pricing__section-card-container a {
+      font-size: 1.5vw; } }
+  @media screen and (max-width: 37.5em) {
+    .pricing__section-card-container a {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 18.75em) {
+    .pricing__section-card-container a {
+      font-size: 3.5vw; } }
+
+.pricing__section-card-container-features p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.1vw; }
+  @media screen and (max-width: 56.25em) {
+    .pricing__section-card-container-features p {
+      font-size: 1.5vw; } }
+  @media screen and (max-width: 37.5em) {
+    .pricing__section-card-container-features p {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 18.75em) {
+    .pricing__section-card-container-features p {
+      font-size: 3.5vw; } }
+  .pricing__section-card-container-features p i {
+    font-size: 1.5vw; }
+    @media screen and (max-width: 56.25em) {
+      .pricing__section-card-container-features p i {
+        font-size: 1.5vw; } }
+    @media screen and (max-width: 37.5em) {
+      .pricing__section-card-container-features p i {
+        font-size: 3.5vw; } }
+    @media screen and (max-width: 18.75em) {
+      .pricing__section-card-container-features p i {
+        font-size: 4.5vw; } }
+
+.pricing__section-card-container-new p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw; }
+  @media screen and (max-width: 56.25em) {
+    .pricing__section-card-container-new p {
+      font-size: 1.5vw; } }
+  @media screen and (max-width: 37.5em) {
+    .pricing__section-card-container-new p {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 18.75em) {
+    .pricing__section-card-container-new p {
+      font-size: 3.5vw; } }
+
 .u-flex-center {
   display: flex;
   justify-content: center;
@@ -1163,6 +1275,10 @@
 .pricing__section-card {
   display: flex;
   justify-content: space-between; }
+  @media screen and (max-width: 56.25em) {
+    .pricing__section-card {
+      flex-direction: column;
+      align-items: center; } }
   .pricing__section-card-container {
     display: flex;
     flex-direction: column;
@@ -1171,6 +1287,13 @@
     box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
     padding: 2rem;
     position: relative; }
+    @media screen and (max-width: 56.25em) {
+      .pricing__section-card-container {
+        margin-bottom: 4rem; } }
+    @media screen and (max-width: 37.5em) {
+      .pricing__section-card-container {
+        width: 100%;
+        margin: 4rem; } }
     .pricing__section-card-container-new {
       position: absolute;
       top: -2rem;
@@ -1179,6 +1302,18 @@
       width: 5vw;
       height: 5vw;
       border-radius: 50%; }
+      @media screen and (max-width: 56.25em) {
+        .pricing__section-card-container-new {
+          width: 7vw;
+          height: 7vw; } }
+      @media screen and (max-width: 37.5em) {
+        .pricing__section-card-container-new {
+          width: 12vw;
+          height: 12vw; } }
+      @media screen and (max-width: 18.75em) {
+        .pricing__section-card-container-new {
+          width: 16vw;
+          height: 16vw; } }
       .pricing__section-card-container-new p {
         margin: 0 !important;
         color: #fff; }
@@ -1187,6 +1322,18 @@
       height: 5vw;
       background-color: #96bb7c;
       border-radius: 50%; }
+      @media screen and (max-width: 56.25em) {
+        .pricing__section-card-container-icon {
+          width: 7vw;
+          height: 7vw; } }
+      @media screen and (max-width: 37.5em) {
+        .pricing__section-card-container-icon {
+          width: 12vw;
+          height: 12vw; } }
+      @media screen and (max-width: 18.75em) {
+        .pricing__section-card-container-icon {
+          width: 16vw;
+          height: 16vw; } }
       .pricing__section-card-container-icon img {
         width: 60%; }
     .pricing__section-card-container h3 {
@@ -1212,7 +1359,9 @@
       margin-top: 1rem; }
       .pricing__section-card-container-features p {
         text-align: start;
-        color: #252b42; }
+        color: #252b42;
+        display: flex;
+        align-items: center; }
         .pricing__section-card-container-features p i {
           margin-right: 0.3rem; }
   .pricing__section-card > div:nth-child(2) {

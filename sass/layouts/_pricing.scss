@@ -21,6 +21,13 @@
     display: flex;
     justify-content: space-between;
 
+    // media query
+
+    @include responsive(tab-port) {
+      flex-direction: column;
+      align-items: center;
+    }
+
     &-container {
       @include flex {
         flex-direction: column;
@@ -32,6 +39,15 @@
       padding: 2rem;
       position: relative;
 
+      //   media query
+      @include responsive(tab-port) {
+        margin-bottom: 4rem;
+      }
+      @include responsive(mobile) {
+        width: 100%;
+        margin: 4rem;
+      }
+
       &-new {
         @include set-position {
           top: -2rem;
@@ -42,6 +58,22 @@
         width: 5vw;
         height: 5vw;
         border-radius: 50%;
+
+        // media query
+        @include responsive(tab-port) {
+          width: 7vw;
+          height: 7vw;
+        }
+
+        @include responsive(mobile) {
+          width: 12vw;
+          height: 12vw;
+        }
+
+        @include responsive(mobile-small) {
+          width: 16vw;
+          height: 16vw;
+        }
 
         p {
           margin: 0 !important;
@@ -55,6 +87,22 @@
         height: 5vw;
         background-color: $color-primary;
         border-radius: 50%;
+
+        // media query
+        @include responsive(tab-port) {
+          width: 7vw;
+          height: 7vw;
+        }
+
+        @include responsive(mobile) {
+          width: 12vw;
+          height: 12vw;
+        }
+
+        @include responsive(mobile-small) {
+          width: 16vw;
+          height: 16vw;
+        }
 
         img {
           width: 60%;
@@ -96,6 +144,8 @@
         p {
           text-align: start;
           color: $color-tertiary;
+          display: flex;
+          align-items: center;
 
           i {
             margin-right: 0.3rem;

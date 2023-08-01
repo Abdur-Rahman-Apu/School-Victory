@@ -520,4 +520,146 @@
 
 .pricing__section {
   @extend .popular__courses-content;
+
+  &-card {
+    &-container {
+      &-type {
+        @include text-style(700, 1.5vw);
+
+        // media query
+
+        @include responsive(tab-port) {
+          font-size: 2.5vw;
+        }
+        @include responsive(mobile) {
+          font-size: 5vw;
+        }
+      }
+
+      p {
+        @include text-style(700, 1vw);
+
+        // media query
+
+        @include responsive(tab-port) {
+          font-size: 1.5vw;
+        }
+        @include responsive(mobile) {
+          font-size: 1.8vw;
+        }
+        @include responsive(mobile-medium) {
+          font-size: 2.5vw;
+        }
+        @include responsive(mobile-small) {
+          font-size: 2.8vw;
+        }
+      }
+
+      h2 {
+        @include text-style(700, 2.7vw);
+
+        // media query
+
+        @include responsive(tab-port) {
+          font-size: 4vw;
+        }
+        @include responsive(mobile) {
+          font-size: 6vw;
+        }
+        @include responsive(mobile-medium) {
+          font-size: 8vw;
+        }
+        @include responsive(mobile-small) {
+          font-size: 10vw;
+        }
+      }
+
+      h6 {
+        @include text-style(700, 0.9vw);
+
+        // media query
+
+        @include responsive(tab-port) {
+          font-size: 1.5vw;
+        }
+        @include responsive(mobile) {
+          font-size: 2.5vw;
+        }
+
+        @include responsive(mobile-small) {
+          font-size: 3vw;
+        }
+      }
+      a {
+        @include text-style(700, 1.1vw);
+
+        // media query
+
+        @include responsive(tab-port) {
+          font-size: 1.5vw;
+        }
+        @include responsive(mobile) {
+          font-size: 2.5vw;
+        }
+
+        @include responsive(mobile-small) {
+          font-size: 3.5vw;
+        }
+      }
+
+      &-features {
+        p {
+          @include text-style(700, 1.1vw);
+
+          // media query
+
+          @include responsive(tab-port) {
+            font-size: 1.5vw;
+          }
+          @include responsive(mobile) {
+            font-size: 2.5vw;
+          }
+
+          @include responsive(mobile-small) {
+            font-size: 3.5vw;
+          }
+
+          i {
+            font-size: 1.5vw;
+
+            // media query
+
+            @include responsive(tab-port) {
+              font-size: 1.5vw;
+            }
+            @include responsive(mobile) {
+              font-size: 3.5vw;
+            }
+
+            @include responsive(mobile-small) {
+              font-size: 4.5vw;
+            }
+          }
+        }
+      }
+
+      &-new {
+        p {
+          @include text-style(700, 1.2vw);
+
+          // media query
+          @include responsive(tab-port) {
+            font-size: 1.5vw;
+          }
+
+          @include responsive(mobile) {
+            font-size: 2.5vw;
+          }
+          @include responsive(mobile-small) {
+            font-size: 3.5vw;
+          }
+        }
+      }
+    }
+  }
 }
