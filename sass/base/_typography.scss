@@ -282,38 +282,159 @@
         &-content {
           &-rating {
             span {
-              @include text-style(700, 1.13vw);
+              @include text-style(700, 1vw);
+
+              // media query
+              @include responsive(tab-land) {
+                font-size: 1.3vw;
+              }
+
+              @include responsive(tab-port) {
+                font-size: 1.6vw;
+              }
+
+              @include responsive(mobile) {
+                font-size: 3vw;
+              }
+
+              @include responsive(mobile-small) {
+                font-size: 4vw;
+              }
             }
 
             &-div {
               p {
-                @include text-style(400, 1vw);
+                @include text-style(400, 0.9vw);
+
+                // media query
+                @include responsive(tab-land) {
+                  font-size: 1.2vw;
+                }
+
+                @include responsive(tab-port) {
+                  font-size: 1.4vw;
+                }
+
+                @include responsive(mobile) {
+                  font-size: 2vw;
+                }
+
+                @include responsive(mobile-small) {
+                  font-size: 3.5vw;
+                }
               }
             }
           }
 
           h5 {
-            @include text-style(700, 1.3vw);
+            @include text-style(700, 1.27vw);
+
+            // media query
+
+            @include responsive(tab-land) {
+              font-size: 1.6vw;
+            }
+
+            @include responsive(tab-port) {
+              font-size: 2vw;
+            }
+
+            @include responsive(mobile) {
+              font-size: 3.5vw;
+            }
+
+            @include responsive(mobile-small) {
+              font-size: 5vw;
+            }
           }
 
           & > p {
             @include text-style(700, 1vw);
+
+            // media query
+            @include responsive(tab-land) {
+              font-size: 1.2vw;
+            }
+
+            @include responsive(tab-port) {
+              font-size: 1.4vw;
+            }
+
+            @include responsive(mobile) {
+              font-size: 2.5vw;
+            }
+
+            @include responsive(mobile-small) {
+              font-size: 3.5vw;
+            }
           }
 
           &-sale {
             p {
               @include text-style(700, 1.1vw);
+
+              // media query
+
+              @include responsive(tab-land) {
+                font-size: 1.3vw;
+              }
+
+              @include responsive(tab-port) {
+                font-size: 1.4vw;
+              }
+
+              @include responsive(mobile) {
+                font-size: 2.5vw;
+              }
+
+              @include responsive(mobile-small) {
+                font-size: 3.5vw;
+              }
             }
           }
 
           &-price {
             p {
               @include text-style(700, 1.1vw);
+
+              // media query
+              @include responsive(tab-land) {
+                font-size: 1.3vw;
+              }
+
+              @include responsive(tab-port) {
+                font-size: 1.4vw;
+              }
+
+              @include responsive(mobile) {
+                font-size: 2.5vw;
+              }
+
+              @include responsive(mobile-small) {
+                font-size: 3.5vw;
+              }
             }
           }
 
           a {
             @include text-style(700, 1.2vw);
+
+            // media query
+            @include responsive(tab-land) {
+              font-size: 1.4vw;
+            }
+
+            @include responsive(tab-port) {
+              font-size: 1.5vw;
+            }
+
+            @include responsive(mobile) {
+              font-size: 2.5vw;
+            }
+
+            @include responsive(mobile-small) {
+              font-size: 3.5vw;
+            }
           }
         }
       }
