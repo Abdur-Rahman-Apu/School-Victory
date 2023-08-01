@@ -2,8 +2,17 @@
   &-upper {
     @include flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 2rem 10%;
     height: fit-content;
+
+    div {
+      // media query
+      @include responsive(tab-land) {
+        margin-right: 0.5rem;
+        margin-top: 1rem;
+      }
+    }
 
     h5 {
       color: $color-tertiary;
@@ -20,6 +29,14 @@
       img {
         margin-right: 0.5rem;
         width: 1.5vw;
+
+        // media query
+        @include responsive(tab-port) {
+          width: 2.5vw;
+        }
+        @include responsive(mobile) {
+          width: 3.5vw;
+        }
       }
     }
   }
@@ -30,15 +47,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: fit-content;
+
+    // media query
+    @include responsive(mobile) {
+      flex-direction: column;
+    }
 
     p {
       color: $color-secondary;
+
+      // media query
+      @include responsive(mobile) {
+        margin-bottom: 1rem;
+      }
     }
 
     &-social-media {
       img {
         width: 1.5vw;
         margin-right: 0.5rem;
+
+        // media query
+        @include responsive(tab-land) {
+          width: 1.9vw;
+        }
+        @include responsive(tab-port) {
+          width: 2.9vw;
+        }
+        @include responsive(mobile) {
+          width: 4.9vw;
+        }
       }
     }
   }

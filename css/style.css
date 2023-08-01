@@ -614,41 +614,89 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1vw; }
+  @media screen and (max-width: 75em) {
+    .subscribe__section-content span {
+      font-size: 1.9vw; } }
 
 .subscribe__section-content h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 3vw; }
+  @media screen and (max-width: 75em) {
+    .subscribe__section-content h2 {
+      font-size: 4vw; } }
 
 .subscribe__section-content p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1.2vw; }
+  @media screen and (max-width: 75em) {
+    .subscribe__section-content p {
+      font-size: 1.9vw; } }
 
 .subscribe__section input {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1.1vw; }
+  @media screen and (max-width: 75em) {
+    .subscribe__section input {
+      font-size: 1.5vw; } }
 
 .subscribe__section button {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1.1vw; }
+  @media screen and (max-width: 75em) {
+    .subscribe__section button {
+      font-size: 1.5vw; } }
 
 .footer__section-upper h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1.2vw; }
+  @media screen and (max-width: 75em) {
+    .footer__section-upper h5 {
+      font-size: 1.5vw; } }
+  @media screen and (max-width: 56.25em) {
+    .footer__section-upper h5 {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 37.5em) {
+    .footer__section-upper h5 {
+      font-size: 3vw; } }
+  @media screen and (max-width: 18.75em) {
+    .footer__section-upper h5 {
+      font-size: 4vw; } }
 
 .footer__section-upper a {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1vw; }
+  @media screen and (max-width: 75em) {
+    .footer__section-upper a {
+      font-size: 1.4vw; } }
+  @media screen and (max-width: 56.25em) {
+    .footer__section-upper a {
+      font-size: 1.8vw; } }
+  @media screen and (max-width: 37.5em) {
+    .footer__section-upper a {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 18.75em) {
+    .footer__section-upper a {
+      font-size: 3.5vw; } }
 
 .footer__section-lower p {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1vw; }
+  @media screen and (max-width: 75em) {
+    .footer__section-lower p {
+      font-size: 1.4vw; } }
+  @media screen and (max-width: 56.25em) {
+    .footer__section-lower p {
+      font-size: 1.8vw; } }
+  @media screen and (max-width: 37.5em) {
+    .footer__section-lower p {
+      font-size: 2.5vw; } }
 
 .u-flex-center {
   display: flex;
@@ -1536,8 +1584,13 @@
 .footer__section-upper {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding: 2rem 10%;
   height: fit-content; }
+  @media screen and (max-width: 75em) {
+    .footer__section-upper div {
+      margin-right: 0.5rem;
+      margin-top: 1rem; } }
   .footer__section-upper h5 {
     color: #252b42;
     margin-bottom: 1rem; }
@@ -1550,18 +1603,40 @@
     .footer__section-upper a img {
       margin-right: 0.5rem;
       width: 1.5vw; }
+      @media screen and (max-width: 56.25em) {
+        .footer__section-upper a img {
+          width: 2.5vw; } }
+      @media screen and (max-width: 37.5em) {
+        .footer__section-upper a img {
+          width: 3.5vw; } }
 
 .footer__section-lower {
   background-color: rgba(115, 115, 115, 0.1);
   padding: 1rem 10%;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+  height: fit-content; }
+  @media screen and (max-width: 37.5em) {
+    .footer__section-lower {
+      flex-direction: column; } }
   .footer__section-lower p {
     color: #737373; }
+    @media screen and (max-width: 37.5em) {
+      .footer__section-lower p {
+        margin-bottom: 1rem; } }
   .footer__section-lower-social-media img {
     width: 1.5vw;
     margin-right: 0.5rem; }
+    @media screen and (max-width: 75em) {
+      .footer__section-lower-social-media img {
+        width: 1.9vw; } }
+    @media screen and (max-width: 56.25em) {
+      .footer__section-lower-social-media img {
+        width: 2.9vw; } }
+    @media screen and (max-width: 37.5em) {
+      .footer__section-lower-social-media img {
+        width: 4.9vw; } }
 
 header {
   display: flex;

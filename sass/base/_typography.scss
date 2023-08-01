@@ -722,23 +722,48 @@
   &-content {
     span {
       @include text-style(700, 1vw);
+
+      // media query
+      @include responsive(tab-land) {
+        font-size: 1.9vw;
+      }
     }
 
     h2 {
       @include text-style(700, 3vw);
+
+      // media query
+      @include responsive(tab-land) {
+        font-size: 4vw;
+      }
     }
 
     p {
       @include text-style(400, 1.2vw);
+
+      // media query
+      @include responsive(tab-land) {
+        font-size: 1.9vw;
+      }
     }
   }
 
   input {
     @include text-style(400, 1.1vw);
+
+    // media query
+    @include responsive(tab-land) {
+      font-size: 1.5vw;
+    }
   }
 
   button {
     @include text-style(400, 1.1vw);
+
+    // media query
+    @include responsive(tab-land) {
+      font-size: 1.5vw;
+    }
   }
 }
 
@@ -746,16 +771,55 @@
   &-upper {
     h5 {
       @include text-style(700, 1.2vw);
+
+      // media query
+      @include responsive(tab-land) {
+        font-size: 1.5vw;
+      }
+      @include responsive(tab-port) {
+        font-size: 2.5vw;
+      }
+      @include responsive(mobile) {
+        font-size: 3vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 4vw;
+      }
     }
 
     a {
       @include text-style(700, 1vw);
+
+      // media query
+      @include responsive(tab-land) {
+        font-size: 1.4vw;
+      }
+      @include responsive(tab-port) {
+        font-size: 1.8vw;
+      }
+      @include responsive(mobile) {
+        font-size: 2.5vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 3.5vw;
+      }
     }
   }
 
   &-lower {
     p {
       @include text-style(700, 1vw);
+
+      // media query
+      @include responsive(tab-land) {
+        font-size: 1.4vw;
+      }
+      @include responsive(tab-port) {
+        font-size: 1.8vw;
+      }
+      @include responsive(mobile) {
+        font-size: 2.5vw;
+      }
     }
   }
 }
