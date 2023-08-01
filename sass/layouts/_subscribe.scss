@@ -1,0 +1,33 @@
+.subscribe__section {
+  // content
+  &-content {
+    span {
+      color: $color-primary;
+    }
+
+    h2 {
+      color: $color-tertiary;
+      margin: 1rem 0;
+    }
+
+    p {
+      color: $color-secondary;
+    }
+  }
+
+  //   input
+
+  &-input {
+    width: 45vw;
+    display: flex;
+    margin-top: 5rem;
+
+    input {
+      border: 0;
+      outline: 0;
+      border: 1px solid $color-secondary;
+      flex-grow: 1;
+      padding: 1rem;
+    }
+  }
+}

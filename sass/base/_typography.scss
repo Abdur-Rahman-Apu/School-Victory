@@ -717,3 +717,19 @@
     }
   }
 }
+
+.subscribe__section {
+  &-content {
+    span {
+      @include text-style(700, 1vw);
+    }
+
+    h2 {
+      @include text-style(700, 3vw);
+    }
+
+    p {
+      @include text-style(400, 1.2vw);
+    }
+  }
+}

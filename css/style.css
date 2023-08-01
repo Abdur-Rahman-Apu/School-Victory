@@ -610,6 +610,21 @@
     .testimonial__section-card h6 {
       font-size: 2.4vw; } }
 
+.subscribe__section-content span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1vw; }
+
+.subscribe__section-content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 3vw; }
+
+.subscribe__section-content p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 1.2vw; }
+
 .u-flex-center {
   display: flex;
   justify-content: center;
@@ -1459,6 +1474,27 @@
   .testimonial__section-card h6 {
     color: #737373;
     margin: 0.5rem 0; }
+
+.subscribe__section-content span {
+  color: #96bb7c; }
+
+.subscribe__section-content h2 {
+  color: #252b42;
+  margin: 1rem 0; }
+
+.subscribe__section-content p {
+  color: #737373; }
+
+.subscribe__section-input {
+  width: 45vw;
+  display: flex;
+  margin-top: 5rem; }
+  .subscribe__section-input input {
+    border: 0;
+    outline: 0;
+    border: 1px solid #737373;
+    flex-grow: 1;
+    padding: 1rem; }
 
 header {
   display: flex;
