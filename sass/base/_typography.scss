@@ -294,7 +294,7 @@
               }
 
               @include responsive(mobile) {
-                font-size: 3vw;
+                font-size: 2.6vw;
               }
 
               @include responsive(mobile-small) {
@@ -340,7 +340,10 @@
             }
 
             @include responsive(mobile) {
-              font-size: 3.5vw;
+              font-size: 3.2vw;
+            }
+            @include responsive(mobile-medium) {
+              font-size: 4vw;
             }
 
             @include responsive(mobile-small) {
@@ -361,6 +364,9 @@
             }
 
             @include responsive(mobile) {
+              font-size: 2.2vw;
+            }
+            @include responsive(mobile-medium) {
               font-size: 2.5vw;
             }
 
@@ -384,6 +390,9 @@
               }
 
               @include responsive(mobile) {
+                font-size: 2.2vw;
+              }
+              @include responsive(mobile-medium) {
                 font-size: 2.5vw;
               }
 
@@ -407,6 +416,10 @@
               }
 
               @include responsive(mobile) {
+                font-size: 2.2vw;
+              }
+
+              @include responsive(mobile-medium) {
                 font-size: 2.5vw;
               }
 
@@ -429,6 +442,10 @@
             }
 
             @include responsive(mobile) {
+              font-size: 2.2vw;
+            }
+
+            @include responsive(mobile-medium) {
               font-size: 2.5vw;
             }
 

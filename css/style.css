@@ -280,7 +280,7 @@
       font-size: 1.6vw; } }
   @media screen and (max-width: 37.5em) {
     .popular__courses-course-card-one-content-rating span {
-      font-size: 3vw; } }
+      font-size: 2.6vw; } }
   @media screen and (max-width: 18.75em) {
     .popular__courses-course-card-one-content-rating span {
       font-size: 4vw; } }
@@ -314,7 +314,10 @@
       font-size: 2vw; } }
   @media screen and (max-width: 37.5em) {
     .popular__courses-course-card-one-content h5 {
-      font-size: 3.5vw; } }
+      font-size: 3.2vw; } }
+  @media screen and (max-width: 30em) {
+    .popular__courses-course-card-one-content h5 {
+      font-size: 4vw; } }
   @media screen and (max-width: 18.75em) {
     .popular__courses-course-card-one-content h5 {
       font-size: 5vw; } }
@@ -330,6 +333,9 @@
     .popular__courses-course-card-one-content > p {
       font-size: 1.4vw; } }
   @media screen and (max-width: 37.5em) {
+    .popular__courses-course-card-one-content > p {
+      font-size: 2.2vw; } }
+  @media screen and (max-width: 30em) {
     .popular__courses-course-card-one-content > p {
       font-size: 2.5vw; } }
   @media screen and (max-width: 18.75em) {
@@ -348,6 +354,9 @@
       font-size: 1.4vw; } }
   @media screen and (max-width: 37.5em) {
     .popular__courses-course-card-one-content-sale p {
+      font-size: 2.2vw; } }
+  @media screen and (max-width: 30em) {
+    .popular__courses-course-card-one-content-sale p {
       font-size: 2.5vw; } }
   @media screen and (max-width: 18.75em) {
     .popular__courses-course-card-one-content-sale p {
@@ -365,6 +374,9 @@
       font-size: 1.4vw; } }
   @media screen and (max-width: 37.5em) {
     .popular__courses-course-card-one-content-price p {
+      font-size: 2.2vw; } }
+  @media screen and (max-width: 30em) {
+    .popular__courses-course-card-one-content-price p {
       font-size: 2.5vw; } }
   @media screen and (max-width: 18.75em) {
     .popular__courses-course-card-one-content-price p {
@@ -381,6 +393,9 @@
     .popular__courses-course-card-one-content a {
       font-size: 1.5vw; } }
   @media screen and (max-width: 37.5em) {
+    .popular__courses-course-card-one-content a {
+      font-size: 2.2vw; } }
+  @media screen and (max-width: 30em) {
     .popular__courses-course-card-one-content a {
       font-size: 2.5vw; } }
   @media screen and (max-width: 18.75em) {
@@ -867,7 +882,10 @@
       color: #737373; }
   .popular__courses-course-card-one {
     width: 218px;
-    height: fit-content; }
+    height: fit-content;
+    transition: all 0.5s; }
+    .popular__courses-course-card-one:hover {
+      box-shadow: 0.2rem 0.2rem 0.1rem rgba(115, 115, 115, 0.3); }
     @media screen and (max-width: 37.5em) {
       .popular__courses-course-card-one {
         margin-bottom: 2rem; } }
@@ -884,6 +902,9 @@
         @media screen and (max-width: 75em) {
           .popular__courses-course-card-one-img-icons {
             left: 27%; } }
+        @media screen and (max-width: 37.5em) {
+          .popular__courses-course-card-one-img-icons {
+            left: 25%; } }
         .popular__courses-course-card-one-img-icons div {
           width: 3vw;
           height: 3vw;
@@ -897,6 +918,10 @@
               width: 4vw;
               height: 4vw; } }
           @media screen and (max-width: 37.5em) {
+            .popular__courses-course-card-one-img-icons div {
+              width: 6.5vw;
+              height: 6.5vw; } }
+          @media screen and (max-width: 30em) {
             .popular__courses-course-card-one-img-icons div {
               width: 8vw;
               height: 8vw; } }

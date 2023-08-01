@@ -91,6 +91,11 @@
     &-card-one {
       width: 218px;
       height: fit-content;
+      transition: all 0.5s;
+
+      &:hover {
+        box-shadow: 0.2rem 0.2rem 0.1rem rgba($color-secondary, 0.3);
+      }
 
       // media query
 
@@ -120,6 +125,10 @@
             left: 27%;
           }
 
+          @include responsive(mobile) {
+            left: 25%;
+          }
+
           div {
             width: 3vw;
             height: 3vw;
@@ -136,6 +145,10 @@
             }
 
             @include responsive(mobile) {
+              width: 6.5vw;
+              height: 6.5vw;
+            }
+            @include responsive(mobile-medium) {
               width: 8vw;
               height: 8vw;
             }
