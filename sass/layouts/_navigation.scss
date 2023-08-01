@@ -1,10 +1,14 @@
 .navigation {
   @include flex;
   height: 15vh;
+  position: sticky;
+  top: 0;
+  z-index: 100000;
 
   &__logo-part {
     display: flex;
     flex-basis: 60%;
+    background-color: $color-white;
 
     @include responsive(mobile) {
       flex-basis: 90%;

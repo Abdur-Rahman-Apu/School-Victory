@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 .navigation__items-logo {
   font-family: "Montserrat", sans-serif;
@@ -787,10 +788,14 @@
 
 .navigation {
   display: flex;
-  height: 15vh; }
+  height: 15vh;
+  position: sticky;
+  top: 0;
+  z-index: 100000; }
   .navigation__logo-part {
     display: flex;
-    flex-basis: 60%; }
+    flex-basis: 60%;
+    background-color: #fff; }
     @media screen and (max-width: 37.5em) {
       .navigation__logo-part {
         flex-basis: 90%; } }
@@ -1139,7 +1144,15 @@
     width: 218px;
     height: fit-content;
     box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
-    padding: 2rem; }
+    padding: 2rem;
+    transition: all 1s; }
+    .popular__courses-course-card:hover {
+      background-color: #96bb7c;
+      color: #fff; }
+    .popular__courses-course-card:hover .popular__courses-course-card-hr {
+      background-color: #fff; }
+    .popular__courses-course-card:hover .popular__courses-course-card-content {
+      color: #fff; }
     .popular__courses-course-card-img {
       position: relative; }
       .popular__courses-course-card-img img:last-child {

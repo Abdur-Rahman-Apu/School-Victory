@@ -34,6 +34,20 @@
       height: fit-content;
       box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
       padding: 2rem;
+      transition: all 1s;
+
+      &:hover {
+        background-color: $color-primary;
+        color: $color-white;
+      }
+
+      &:hover &-hr {
+        background-color: $color-white;
+      }
+
+      &:hover &-content {
+        color: $color-white;
+      }
 
       &-img {
         position: relative;
