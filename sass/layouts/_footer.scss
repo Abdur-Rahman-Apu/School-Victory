@@ -1,0 +1,45 @@
+.footer__section {
+  &-upper {
+    @include flex;
+    justify-content: space-between;
+    padding: 2rem 10%;
+    height: fit-content;
+
+    h5 {
+      color: $color-tertiary;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: $color-secondary;
+      margin-bottom: 1rem;
+
+      img {
+        margin-right: 0.5rem;
+        width: 1.5vw;
+      }
+    }
+  }
+
+  &-lower {
+    background-color: rgba($color-secondary, 0.1);
+    padding: 1rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      color: $color-secondary;
+    }
+
+    &-social-media {
+      img {
+        width: 1.5vw;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

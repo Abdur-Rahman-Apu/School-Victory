@@ -28,6 +28,20 @@
       border: 1px solid $color-secondary;
       flex-grow: 1;
       padding: 1rem;
+      border-top-left-radius: 6px;
+      border-bottom-left-radius: 6px;
+      background-color: $color-input-bg;
+    }
+
+    button {
+      border: 0;
+      outline: 0;
+      padding: 0 1rem;
+      background-color: $color-primary;
+      color: $color-white;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      border: 1px solid $color-primary;
     }
   }
 }

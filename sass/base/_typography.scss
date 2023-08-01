@@ -732,4 +732,30 @@
       @include text-style(400, 1.2vw);
     }
   }
+
+  input {
+    @include text-style(400, 1.1vw);
+  }
+
+  button {
+    @include text-style(400, 1.1vw);
+  }
+}
+
+.footer__section {
+  &-upper {
+    h5 {
+      @include text-style(700, 1.2vw);
+    }
+
+    a {
+      @include text-style(700, 1vw);
+    }
+  }
+
+  &-lower {
+    p {
+      @include text-style(700, 1vw);
+    }
+  }
 }
