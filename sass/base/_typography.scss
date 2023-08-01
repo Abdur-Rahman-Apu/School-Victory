@@ -517,3 +517,7 @@
 .package__section {
   @extend .quality__education-content;
 }
+
+.pricing__section {
+  @extend .popular__courses-content;
+}

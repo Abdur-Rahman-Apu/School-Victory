@@ -118,92 +118,92 @@
     .header__content-text-btns a {
       font-size: 3.5vw; } }
 
-.popular__courses-content span {
+.popular__courses-content span, .pricing__section span {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 1vw; }
   @media screen and (max-width: 75em) {
-    .popular__courses-content span {
+    .popular__courses-content span, .pricing__section span {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 1.7vw; } }
   @media screen and (max-width: 56.25em) {
-    .popular__courses-content span {
+    .popular__courses-content span, .pricing__section span {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 1.9vw; } }
   @media screen and (max-width: 37.5em) {
-    .popular__courses-content span {
+    .popular__courses-content span, .pricing__section span {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 2.3vw; } }
   @media screen and (max-width: 30em) {
-    .popular__courses-content span {
+    .popular__courses-content span, .pricing__section span {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 3.3vw; } }
   @media screen and (max-width: 18.75em) {
-    .popular__courses-content span {
+    .popular__courses-content span, .pricing__section span {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 3.5vw; } }
 
-.popular__courses-content h2 {
+.popular__courses-content h2, .pricing__section h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 2.5vw; }
   @media screen and (max-width: 75em) {
-    .popular__courses-content h2 {
+    .popular__courses-content h2, .pricing__section h2 {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 3.5vw; } }
   @media screen and (max-width: 56.25em) {
-    .popular__courses-content h2 {
+    .popular__courses-content h2, .pricing__section h2 {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 3.9vw; } }
   @media screen and (max-width: 37.5em) {
-    .popular__courses-content h2 {
+    .popular__courses-content h2, .pricing__section h2 {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 4.5vw; } }
   @media screen and (max-width: 30em) {
-    .popular__courses-content h2 {
+    .popular__courses-content h2, .pricing__section h2 {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 6vw; } }
   @media screen and (max-width: 18.75em) {
-    .popular__courses-content h2 {
+    .popular__courses-content h2, .pricing__section h2 {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 7vw; } }
 
-.popular__courses-content p {
+.popular__courses-content p, .pricing__section p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 1.2vw; }
   @media screen and (max-width: 75em) {
-    .popular__courses-content p {
+    .popular__courses-content p, .pricing__section p {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 1.4vw; } }
   @media screen and (max-width: 56.25em) {
-    .popular__courses-content p {
+    .popular__courses-content p, .pricing__section p {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 1.7vw; } }
   @media screen and (max-width: 37.5em) {
-    .popular__courses-content p {
+    .popular__courses-content p, .pricing__section p {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 2.3vw; } }
   @media screen and (max-width: 30em) {
-    .popular__courses-content p {
+    .popular__courses-content p, .pricing__section p {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 2.8vw; } }
   @media screen and (max-width: 18.75em) {
-    .popular__courses-content p {
+    .popular__courses-content p, .pricing__section p {
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 3.1vw; } }
@@ -485,6 +485,12 @@
 
 .u-bg-sky-dark {
   background-color: #0072f9; }
+
+.u-color-success {
+  color: #2dc071; }
+
+.u-color-muted {
+  color: #bdbdbd; }
 
 .u-hidden {
   display: none; }
@@ -820,14 +826,14 @@
         bottom: 0.1rem;
         left: 20%; } }
 
-.popular__courses-content {
+.popular__courses-content, .pricing__section {
   margin-bottom: 1.5rem; }
-  .popular__courses-content span {
+  .popular__courses-content span, .pricing__section span {
     color: #96bb7c; }
-  .popular__courses-content h2 {
+  .popular__courses-content h2, .pricing__section h2 {
     color: #252b42;
     margin: 1rem 0; }
-  .popular__courses-content p {
+  .popular__courses-content p, .pricing__section p {
     color: #737373; }
 
 .popular__courses-course {
@@ -1145,6 +1151,76 @@
     .package__section-img-play img {
       width: 30%; }
 
+.pricing__section-content {
+  margin-bottom: 8rem; }
+  .pricing__section-content span {
+    color: #96bb7c; }
+  .pricing__section-content h2 {
+    margin: 1rem 0; }
+  .pricing__section-content p {
+    color: #737373; }
+
+.pricing__section-card {
+  display: flex;
+  justify-content: space-between; }
+  .pricing__section-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 323px;
+    box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
+    padding: 2rem;
+    position: relative; }
+    .pricing__section-card-container-new {
+      position: absolute;
+      top: -2rem;
+      right: -1rem;
+      background-color: #e77c40;
+      width: 5vw;
+      height: 5vw;
+      border-radius: 50%; }
+      .pricing__section-card-container-new p {
+        margin: 0 !important;
+        color: #fff; }
+    .pricing__section-card-container-icon {
+      width: 5vw;
+      height: 5vw;
+      background-color: #96bb7c;
+      border-radius: 50%; }
+      .pricing__section-card-container-icon img {
+        width: 60%; }
+    .pricing__section-card-container h3 {
+      color: #252b42;
+      margin: 1rem 0; }
+    .pricing__section-card-container p {
+      text-align: center;
+      color: #737373;
+      margin-bottom: 1rem; }
+    .pricing__section-card-container h2 {
+      color: #96bb7c;
+      margin-bottom: 0.3rem; }
+    .pricing__section-card-container h6 {
+      color: #8ec2f2;
+      margin-bottom: 2rem; }
+    .pricing__section-card-container a {
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+      margin: 2rem 0; }
+    .pricing__section-card-container-features {
+      margin-top: 1rem; }
+      .pricing__section-card-container-features p {
+        text-align: start;
+        color: #252b42; }
+        .pricing__section-card-container-features p i {
+          margin-right: 0.3rem; }
+  .pricing__section-card > div:nth-child(2) {
+    background-color: #2d4059; }
+    .pricing__section-card > div:nth-child(2) h3,
+    .pricing__section-card > div:nth-child(2) p {
+      color: #fff; }
+
 header {
   display: flex;
   height: calc(100vh - 15vh); }
@@ -1166,3 +1242,6 @@ header {
     .quality__education, .package__section {
       flex-direction: column;
       padding: 5rem 10%; } }
+
+.pricing__section {
+  padding: 8rem 10%; }
