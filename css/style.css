@@ -617,6 +617,15 @@
   @media screen and (max-width: 75em) {
     .subscribe__section-content span {
       font-size: 1.9vw; } }
+  @media screen and (max-width: 37.5em) {
+    .subscribe__section-content span {
+      font-size: 2.9vw; } }
+  @media screen and (max-width: 30em) {
+    .subscribe__section-content span {
+      font-size: 3.9vw; } }
+  @media screen and (max-width: 18.75em) {
+    .subscribe__section-content span {
+      font-size: 4.6vw; } }
 
 .subscribe__section-content h2 {
   font-family: "Montserrat", sans-serif;
@@ -625,6 +634,15 @@
   @media screen and (max-width: 75em) {
     .subscribe__section-content h2 {
       font-size: 4vw; } }
+  @media screen and (max-width: 37.5em) {
+    .subscribe__section-content h2 {
+      font-size: 5vw; } }
+  @media screen and (max-width: 30em) {
+    .subscribe__section-content h2 {
+      font-size: 6vw; } }
+  @media screen and (max-width: 18.75em) {
+    .subscribe__section-content h2 {
+      font-size: 7vw; } }
 
 .subscribe__section-content p {
   font-family: "Montserrat", sans-serif;
@@ -633,6 +651,15 @@
   @media screen and (max-width: 75em) {
     .subscribe__section-content p {
       font-size: 1.9vw; } }
+  @media screen and (max-width: 37.5em) {
+    .subscribe__section-content p {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 30em) {
+    .subscribe__section-content p {
+      font-size: 3.5vw; } }
+  @media screen and (max-width: 18.75em) {
+    .subscribe__section-content p {
+      font-size: 4vw; } }
 
 .subscribe__section input {
   font-family: "Montserrat", sans-serif;
@@ -641,6 +668,15 @@
   @media screen and (max-width: 75em) {
     .subscribe__section input {
       font-size: 1.5vw; } }
+  @media screen and (max-width: 37.5em) {
+    .subscribe__section input {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 30em) {
+    .subscribe__section input {
+      font-size: 3.5vw; } }
+  @media screen and (max-width: 18.75em) {
+    .subscribe__section input {
+      font-size: 4.5vw; } }
 
 .subscribe__section button {
   font-family: "Montserrat", sans-serif;
@@ -649,6 +685,15 @@
   @media screen and (max-width: 75em) {
     .subscribe__section button {
       font-size: 1.5vw; } }
+  @media screen and (max-width: 37.5em) {
+    .subscribe__section button {
+      font-size: 2.5vw; } }
+  @media screen and (max-width: 30em) {
+    .subscribe__section button {
+      font-size: 3.5vw; } }
+  @media screen and (max-width: 18.75em) {
+    .subscribe__section button {
+      font-size: 4.5vw; } }
 
 .footer__section-upper h5 {
   font-family: "Montserrat", sans-serif;
@@ -1562,6 +1607,17 @@
   width: 45vw;
   display: flex;
   margin-top: 5rem; }
+  @media screen and (max-width: 37.5em) {
+    .subscribe__section-input {
+      width: 60vw; } }
+  @media screen and (max-width: 30em) {
+    .subscribe__section-input {
+      width: 70vw; } }
+  @media screen and (max-width: 18.75em) {
+    .subscribe__section-input {
+      width: 100vw;
+      flex-direction: column;
+      align-items: center; } }
   .subscribe__section-input input {
     border: 0;
     outline: 0;
@@ -1571,6 +1627,10 @@
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     background-color: #f9f9f9; }
+    @media screen and (max-width: 18.75em) {
+      .subscribe__section-input input {
+        border-radius: 8px;
+        padding: 0.8rem; } }
   .subscribe__section-input button {
     border: 0;
     outline: 0;
@@ -1580,6 +1640,13 @@
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     border: 1px solid #96bb7c; }
+    @media screen and (max-width: 18.75em) {
+      .subscribe__section-input button {
+        width: fit-content;
+        flex-direction: column;
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 8px; } }
 
 .footer__section-upper {
   display: flex;
@@ -1630,7 +1697,7 @@
     margin-right: 0.5rem; }
     @media screen and (max-width: 75em) {
       .footer__section-lower-social-media img {
-        width: 1.9vw; } }
+        width: 2.5vw; } }
     @media screen and (max-width: 56.25em) {
       .footer__section-lower-social-media img {
         width: 2.9vw; } }

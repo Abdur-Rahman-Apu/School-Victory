@@ -727,6 +727,15 @@
       @include responsive(tab-land) {
         font-size: 1.9vw;
       }
+      @include responsive(mobile) {
+        font-size: 2.9vw;
+      }
+      @include responsive(mobile-medium) {
+        font-size: 3.9vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 4.6vw;
+      }
     }
 
     h2 {
@@ -736,6 +745,15 @@
       @include responsive(tab-land) {
         font-size: 4vw;
       }
+      @include responsive(mobile) {
+        font-size: 5vw;
+      }
+      @include responsive(mobile-medium) {
+        font-size: 6vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 7vw;
+      }
     }
 
     p {
@@ -744,6 +762,16 @@
       // media query
       @include responsive(tab-land) {
         font-size: 1.9vw;
+      }
+
+      @include responsive(mobile) {
+        font-size: 2.5vw;
+      }
+      @include responsive(mobile-medium) {
+        font-size: 3.5vw;
+      }
+      @include responsive(mobile-small) {
+        font-size: 4vw;
       }
     }
   }
@@ -755,6 +783,16 @@
     @include responsive(tab-land) {
       font-size: 1.5vw;
     }
+
+    @include responsive(mobile) {
+      font-size: 2.5vw;
+    }
+    @include responsive(mobile-medium) {
+      font-size: 3.5vw;
+    }
+    @include responsive(mobile-small) {
+      font-size: 4.5vw;
+    }
   }
 
   button {
@@ -763,6 +801,15 @@
     // media query
     @include responsive(tab-land) {
       font-size: 1.5vw;
+    }
+    @include responsive(mobile) {
+      font-size: 2.5vw;
+    }
+    @include responsive(mobile-medium) {
+      font-size: 3.5vw;
+    }
+    @include responsive(mobile-small) {
+      font-size: 4.5vw;
     }
   }
 }

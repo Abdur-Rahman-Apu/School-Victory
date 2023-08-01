@@ -22,6 +22,19 @@
     display: flex;
     margin-top: 5rem;
 
+    // media query
+    @include responsive(mobile) {
+      width: 60vw;
+    }
+    @include responsive(mobile-medium) {
+      width: 70vw;
+    }
+    @include responsive(mobile-small) {
+      width: 100vw;
+      flex-direction: column;
+      align-items: center;
+    }
+
     input {
       border: 0;
       outline: 0;
@@ -31,6 +44,12 @@
       border-top-left-radius: 6px;
       border-bottom-left-radius: 6px;
       background-color: $color-input-bg;
+
+      // media query
+      @include responsive(mobile-small) {
+        border-radius: 8px;
+        padding: 0.8rem;
+      }
     }
 
     button {
@@ -42,6 +61,15 @@
       border-top-right-radius: 6px;
       border-bottom-right-radius: 6px;
       border: 1px solid $color-primary;
+
+      // media query
+      @include responsive(mobile-small) {
+        width: fit-content;
+        flex-direction: column;
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 8px;
+      }
     }
   }
 }
